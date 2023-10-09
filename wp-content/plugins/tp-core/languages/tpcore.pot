@@ -1,0 +1,2079 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TP Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-21 10:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Domain: tpcore"
+
+#: include/common-functions.php:1245 include/common-functions.php:1863
+#: include/common-functions.php:2703
+msgid " link"
+msgstr ""
+
+#: include/common-functions.php:1903
+msgid " Link link"
+msgstr ""
+
+#: include/common-functions.php:1924
+msgid " Link Page"
+msgstr ""
+
+#: include/common-functions.php:1229 include/common-functions.php:1888
+#: include/common-functions.php:2687
+msgid " Link Type"
+msgstr ""
+
+#: include/common-functions.php:1267 include/common-functions.php:2725
+msgid " Page"
+msgstr ""
+
+#: include/common-functions.php:1216 include/common-functions.php:2674
+msgid " Text"
+msgstr ""
+
+#. 1: Plugin name 2: Elementor
+#: tp-core-helper.php:166
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: tp-core-helper.php:189 tp-core-helper.php:213
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: include/elementor/cat-banner.php:249 include/elementor/coming-soon.php:180
+#: include/elementor/product-cat.php:254 include/elementor/team.php:225
+#: include/elementor/team.php:298 include/elementor/team.php:312
+#: include/elementor/team.php:326
+msgid "#"
+msgstr ""
+
+#: include/common-functions.php:2571
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: include/common-functions.php:2252
+#, php-format
+msgid "%s - Columns for Carousel"
+msgstr ""
+
+#: include/common-functions.php:2092
+#, php-format
+msgid "%s - Layout"
+msgstr ""
+
+#: include/common-functions.php:1945
+#, php-format
+msgid "%s Query"
+msgstr ""
+
+#: include/common-functions.php:1472 include/common-functions.php:1492
+#: include/common-functions.php:1512 include/common-functions.php:1532
+#: include/common-functions.php:1649 include/common-functions.php:1690
+#: include/common-functions.php:1715 include/common-functions.php:1740
+#: include/common-functions.php:1765 include/common-functions.php:1790
+#: include/common-functions.php:1815 include/common-functions.php:2263
+#: include/common-functions.php:2288 include/common-functions.php:2313
+#: include/common-functions.php:2338 include/common-functions.php:2363
+#: include/common-functions.php:2388
+msgid "1 Columns"
+msgstr ""
+
+#: include/common-functions.php:1699 include/common-functions.php:1700
+#: include/common-functions.php:1724 include/common-functions.php:1725
+#: include/common-functions.php:1749 include/common-functions.php:1750
+#: include/common-functions.php:1774 include/common-functions.php:1775
+#: include/common-functions.php:1799 include/common-functions.php:1800
+#: include/common-functions.php:1824 include/common-functions.php:1825
+#: include/common-functions.php:2272 include/common-functions.php:2273
+#: include/common-functions.php:2297 include/common-functions.php:2298
+#: include/common-functions.php:2322 include/common-functions.php:2323
+#: include/common-functions.php:2347 include/common-functions.php:2348
+#: include/common-functions.php:2372 include/common-functions.php:2373
+#: include/common-functions.php:2397 include/common-functions.php:2398
+msgid "10 Columns"
+msgstr ""
+
+#: include/common-functions.php:1478 include/common-functions.php:1498
+#: include/common-functions.php:1518 include/common-functions.php:1538
+#: include/common-functions.php:1701 include/common-functions.php:1726
+#: include/common-functions.php:1751 include/common-functions.php:1776
+#: include/common-functions.php:1801 include/common-functions.php:1826
+#: include/common-functions.php:2274 include/common-functions.php:2299
+#: include/common-functions.php:2324 include/common-functions.php:2349
+#: include/common-functions.php:2374 include/common-functions.php:2399
+msgid "12 Columns"
+msgstr ""
+
+#: include/common-functions.php:1473 include/common-functions.php:1493
+#: include/common-functions.php:1513 include/common-functions.php:1533
+#: include/common-functions.php:1576 include/common-functions.php:1595
+#: include/common-functions.php:1613 include/common-functions.php:1631
+#: include/common-functions.php:1650 include/common-functions.php:1691
+#: include/common-functions.php:1716 include/common-functions.php:1741
+#: include/common-functions.php:1766 include/common-functions.php:1791
+#: include/common-functions.php:1816 include/common-functions.php:2264
+#: include/common-functions.php:2289 include/common-functions.php:2314
+#: include/common-functions.php:2339 include/common-functions.php:2364
+#: include/common-functions.php:2389
+msgid "2 Columns"
+msgstr ""
+
+#: include/elementor/cat-banner.php:230 include/elementor/product-cat.php:235
+msgid "20"
+msgstr ""
+
+#: include/elementor/shop-location.php:283
+#: include/elementor/shop-location.php:296
+msgid "24/26 Strait Bargate, Boston, PE21, United Kingdom"
+msgstr ""
+
+#: include/widgets/tp-blog-post-sidebar.php:76
+#: include/widgets/tp-service-list.php:56
+msgid "3"
+msgstr ""
+
+#: include/common-functions.php:1474 include/common-functions.php:1494
+#: include/common-functions.php:1514 include/common-functions.php:1534
+#: include/common-functions.php:1577 include/common-functions.php:1596
+#: include/common-functions.php:1614 include/common-functions.php:1632
+#: include/common-functions.php:1651 include/common-functions.php:1692
+#: include/common-functions.php:1717 include/common-functions.php:1742
+#: include/common-functions.php:1767 include/common-functions.php:1792
+#: include/common-functions.php:1817 include/common-functions.php:2265
+#: include/common-functions.php:2290 include/common-functions.php:2315
+#: include/common-functions.php:2340 include/common-functions.php:2365
+#: include/common-functions.php:2390
+msgid "3 Columns"
+msgstr ""
+
+#: include/elementor/shop-location.php:299
+msgid "36/26 Strait Bargate, Boston, PE21, United Kingdom"
+msgstr ""
+
+#: include/common-functions.php:1475 include/common-functions.php:1495
+#: include/common-functions.php:1515 include/common-functions.php:1535
+#: include/common-functions.php:1578 include/common-functions.php:1597
+#: include/common-functions.php:1615 include/common-functions.php:1633
+#: include/common-functions.php:1652 include/common-functions.php:1693
+#: include/common-functions.php:1718 include/common-functions.php:1743
+#: include/common-functions.php:1768 include/common-functions.php:1793
+#: include/common-functions.php:1818 include/common-functions.php:2266
+#: include/common-functions.php:2291 include/common-functions.php:2316
+#: include/common-functions.php:2341 include/common-functions.php:2366
+#: include/common-functions.php:2391
+msgid "4 Columns"
+msgstr ""
+
+#: include/elementor/shop-location.php:302
+msgid "40/26 Strait Bargate, Vegas, PE21, United Kingdom"
+msgstr ""
+
+#: include/common-functions.php:1579 include/common-functions.php:1598
+#: include/common-functions.php:1616 include/common-functions.php:1634
+#: include/common-functions.php:1653 include/common-functions.php:1694
+#: include/common-functions.php:1719 include/common-functions.php:1744
+#: include/common-functions.php:1769 include/common-functions.php:1794
+#: include/common-functions.php:1819 include/common-functions.php:2267
+#: include/common-functions.php:2292 include/common-functions.php:2317
+#: include/common-functions.php:2342 include/common-functions.php:2367
+#: include/common-functions.php:2392
+msgid "5 Columns"
+msgstr ""
+
+#: include/common-functions.php:1476 include/common-functions.php:1496
+#: include/common-functions.php:1516 include/common-functions.php:1536
+msgid "5 Columns (For Carousel Item)"
+msgstr ""
+
+#: include/common-functions.php:1477 include/common-functions.php:1497
+#: include/common-functions.php:1517 include/common-functions.php:1537
+#: include/common-functions.php:1580 include/common-functions.php:1599
+#: include/common-functions.php:1617 include/common-functions.php:1635
+#: include/common-functions.php:1654 include/common-functions.php:1695
+#: include/common-functions.php:1720 include/common-functions.php:1745
+#: include/common-functions.php:1770 include/common-functions.php:1795
+#: include/common-functions.php:1820 include/common-functions.php:2268
+#: include/common-functions.php:2293 include/common-functions.php:2318
+#: include/common-functions.php:2343 include/common-functions.php:2368
+#: include/common-functions.php:2393
+msgid "6 Columns"
+msgstr ""
+
+#: include/common-functions.php:1696 include/common-functions.php:1721
+#: include/common-functions.php:1746 include/common-functions.php:1771
+#: include/common-functions.php:1796 include/common-functions.php:1821
+#: include/common-functions.php:2269 include/common-functions.php:2294
+#: include/common-functions.php:2319 include/common-functions.php:2344
+#: include/common-functions.php:2369 include/common-functions.php:2394
+msgid "7 Columns"
+msgstr ""
+
+#: include/common-functions.php:1697 include/common-functions.php:1722
+#: include/common-functions.php:1747 include/common-functions.php:1772
+#: include/common-functions.php:1797 include/common-functions.php:1822
+#: include/common-functions.php:2270 include/common-functions.php:2295
+#: include/common-functions.php:2320 include/common-functions.php:2345
+#: include/common-functions.php:2370 include/common-functions.php:2395
+msgid "8 Columns"
+msgstr ""
+
+#: include/common-functions.php:1698 include/common-functions.php:1723
+#: include/common-functions.php:1748 include/common-functions.php:1773
+#: include/common-functions.php:1798 include/common-functions.php:1823
+#: include/common-functions.php:2271 include/common-functions.php:2296
+#: include/common-functions.php:2321 include/common-functions.php:2346
+#: include/common-functions.php:2371 include/common-functions.php:2396
+msgid "9 Columns"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:170
+#: include/elementor/feature-product-info.php:287
+#: include/elementor/info-banner.php:152
+msgid "About Me"
+msgstr ""
+
+#: include/elementor/slider.php:249
+msgid "Add Button link"
+msgstr ""
+
+#: include/elementor/features.php:264
+msgid "Add Features link"
+msgstr ""
+
+#: include/custom-post-footer.php:39 include/custom-post-portfolio.php:39
+#: include/custom-post-services.php:39
+msgid "Add New"
+msgstr ""
+
+#: include/custom-post-footer.php:38
+msgid "Add New Footer"
+msgstr ""
+
+#: include/custom-post-footer.php:89
+msgid "Add New Footer Category"
+msgstr ""
+
+#: include/custom-post-portfolio.php:38
+msgid "Add New Portfolio"
+msgstr ""
+
+#: include/custom-post-portfolio.php:89
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:38
+msgid "Add New Service"
+msgstr ""
+
+#: include/custom-post-services.php:89
+msgid "Add New Service Category"
+msgstr ""
+
+#: include/custom-post-footer.php:94 include/custom-post-portfolio.php:94
+#: include/custom-post-services.php:94
+msgid "Add or remove items"
+msgstr ""
+
+#: include/elementor/team.php:418
+msgid "Add your dribbble link"
+msgstr ""
+
+#: include/elementor/team.php:272
+msgid "Add your email link"
+msgstr ""
+
+#: include/elementor/team.php:299
+msgid "Add your facebook link"
+msgstr ""
+
+#: include/elementor/team.php:379
+msgid "Add your flickr link"
+msgstr ""
+
+#: include/elementor/team.php:444
+msgid "Add your github link"
+msgstr ""
+
+#: include/elementor/team.php:366
+msgid "Add your Google Plus link"
+msgstr ""
+
+#: include/elementor/team.php:405
+msgid "Add your hehance link"
+msgstr ""
+
+#: include/elementor/team.php:327
+msgid "Add your instagram link"
+msgstr ""
+
+#: include/elementor/team.php:340
+msgid "Add your linkedin link"
+msgstr ""
+
+#: include/elementor/team.php:285
+msgid "Add your phone link"
+msgstr ""
+
+#: include/elementor/team.php:431
+msgid "Add your pinterest link"
+msgstr ""
+
+#: include/elementor/team.php:259
+msgid "Add your profile link"
+msgstr ""
+
+#: include/elementor/team.php:313
+msgid "Add your twitter link"
+msgstr ""
+
+#: include/elementor/team.php:392
+msgid "Add your vimeo link"
+msgstr ""
+
+#: include/elementor/team.php:353
+msgid "Add your youtube link"
+msgstr ""
+
+#: include/elementor/coming-soon.php:267 include/elementor/contact-form.php:267
+#: include/elementor/team.php:543
+msgid "Alignment"
+msgstr ""
+
+#: include/custom-post-footer.php:85
+msgid "All Footer Category"
+msgstr ""
+
+#: include/custom-post-footer.php:37 include/custom-post-portfolio.php:37
+#: include/custom-post-services.php:37
+msgid "All Items"
+msgstr ""
+
+#: include/custom-post-portfolio.php:85
+msgid "All Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:85
+msgid "All Service Category"
+msgstr ""
+
+#: include/common-functions.php:2155
+msgid "Arrow Icons?"
+msgstr ""
+
+#: include/common-functions.php:2014
+msgid "Ascending"
+msgstr ""
+
+#: include/common-functions.php:2197
+msgid "Autoplay Speed"
+msgstr ""
+
+#: include/common-functions.php:2183
+msgid "Autoplay?"
+msgstr ""
+
+#: controls/tpbggradient.php:150 controls/tpgradient.php:144
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: controls/tpbggradient.php:182 controls/tpgradient.php:176
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: controls/tpbggradient.php:183 controls/tpgradient.php:177
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: controls/tpbggradient.php:184 controls/tpgradient.php:178
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: controls/tpbggradient.php:176 controls/tpgradient.php:170
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: controls/tpbggradient.php:177 controls/tpgradient.php:171
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: controls/tpbggradient.php:178 controls/tpgradient.php:172
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: controls/tpbggradient.php:81 controls/tpgradient.php:79
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: controls/tpbggradient.php:63
+msgctxt "Background Control"
+msgid ""
+"Gradient color not work editor mode. If you set gradient color please view "
+"the result live preview page."
+msgstr ""
+
+#: controls/tpbggradient.php:138 controls/tpgradient.php:133
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: controls/tpbggradient.php:94 controls/tpbggradient.php:120
+#: controls/tpgradient.php:92 controls/tpgradient.php:116
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: controls/tpbggradient.php:173 controls/tpgradient.php:167
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: controls/tpbggradient.php:139 controls/tpgradient.php:134
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: controls/tpbggradient.php:109
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: controls/tpgradient.php:106
+msgctxt "Background Control"
+msgid "Second Color (No effect for custom SVG)"
+msgstr ""
+
+#: controls/tpbggradient.php:62 controls/tpgradient.php:62
+msgctxt "Background Control"
+msgid "Select Color Type"
+msgstr ""
+
+#: controls/tpbggradient.php:84
+msgctxt "Background Control"
+msgid "Start Color"
+msgstr ""
+
+#: controls/tpgradient.php:82
+msgctxt "Background Control"
+msgid "Text Color"
+msgstr ""
+
+#: controls/tpbggradient.php:179 controls/tpgradient.php:173
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: controls/tpbggradient.php:180 controls/tpgradient.php:174
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: controls/tpbggradient.php:181 controls/tpgradient.php:175
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: controls/tpbggradient.php:135 controls/tpgradient.php:130
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:266
+msgid "Badget Title"
+msgstr ""
+
+#: include/elementor/team.php:404
+msgid "Behance"
+msgstr ""
+
+#: include/common-functions.php:2104
+msgid "Blog 2 Col"
+msgstr ""
+
+#: include/common-functions.php:2108
+msgid "Blog 2 Col Slider"
+msgstr ""
+
+#: include/common-functions.php:2105
+msgid "Blog 3 Col"
+msgstr ""
+
+#: include/common-functions.php:2107
+msgid "Blog 3 Col Style 2"
+msgstr ""
+
+#: include/common-functions.php:2103
+msgid "Blog Box"
+msgstr ""
+
+#: include/common-functions.php:2101
+msgid "Blog Grid"
+msgstr ""
+
+#: include/common-functions.php:2109
+msgid "Blog Large"
+msgstr ""
+
+#: include/common-functions.php:2106
+msgid "Blog List"
+msgstr ""
+
+#: include/common-functions.php:2110
+msgid "Blog Overlay"
+msgstr ""
+
+#: include/elementor/blog-post.php:45
+msgid "Blog Post"
+msgstr ""
+
+#: include/common-functions.php:2102
+msgid "Blog Slider"
+msgstr ""
+
+#: include/common-functions.php:2111
+msgid "Blog Small"
+msgstr ""
+
+#: include/elementor/slider.php:338
+msgid "Bottom Text"
+msgstr ""
+
+#: include/elementor/brand.php:48
+msgid "Brand"
+msgstr ""
+
+#: include/elementor/brand.php:140 include/elementor/brand.php:192
+msgid "Brand Item"
+msgstr ""
+
+#: include/elementor/brand.php:148
+msgid "Brand Title"
+msgstr ""
+
+#: include/elementor/features.php:352
+msgid "Business Stratagy"
+msgstr ""
+
+#: include/elementor/slider.php:290
+msgid "Button Link link"
+msgstr ""
+
+#: include/elementor/slider.php:275
+msgid "Button Link Type"
+msgstr ""
+
+#: include/common-functions.php:1875 include/common-functions.php:1877
+#: include/elementor/features.php:280 include/elementor/features.php:282
+#: include/elementor/slider.php:262 include/elementor/slider.php:264
+msgid "Button Text"
+msgstr ""
+
+#: include/elementor/cat-banner.php:54
+msgid "Category Banner"
+msgstr ""
+
+#: include/elementor/product-cat.php:232
+msgid "Category Item"
+msgstr ""
+
+#: include/elementor/cat-banner.php:227
+msgid "Category Item Number"
+msgstr ""
+
+#: include/elementor/cat-banner.php:237 include/elementor/cat-banner.php:240
+msgid "Category Title"
+msgstr ""
+
+#: include/elementor/coming-soon.php:275 include/elementor/contact-form.php:275
+#: include/elementor/team.php:551
+msgid "Center"
+msgstr ""
+
+#: include/custom-post-footer.php:95 include/custom-post-portfolio.php:95
+#: include/custom-post-services.php:95
+msgid "Choose from the most used"
+msgstr ""
+
+#: controls/tpbggradient.php:73
+msgctxt "Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: controls/tpbggradient.php:69
+msgctxt "Color Control"
+msgid "Solid"
+msgstr ""
+
+#: include/common-functions.php:1468 include/common-functions.php:1591
+#: include/common-functions.php:1711 include/common-functions.php:2284
+msgid "Columns for Desktop"
+msgstr ""
+
+#: include/common-functions.php:1686 include/common-functions.php:2259
+msgid "Columns for Extra Large Desktop"
+msgstr ""
+
+#: include/common-functions.php:1811 include/common-functions.php:2384
+msgid "Columns for Extra Small Mobile"
+msgstr ""
+
+#: include/common-functions.php:1736 include/common-functions.php:2309
+msgid "Columns for Laptop"
+msgstr ""
+
+#: include/common-functions.php:1488 include/common-functions.php:1609
+msgid "Columns for Large"
+msgstr ""
+
+#: include/common-functions.php:1528 include/common-functions.php:1645
+#: include/common-functions.php:1786 include/common-functions.php:2359
+msgid "Columns for Mobile"
+msgstr ""
+
+#: include/common-functions.php:1508 include/common-functions.php:1627
+#: include/common-functions.php:1761 include/common-functions.php:2334
+msgid "Columns for Tablet"
+msgstr ""
+
+#: include/common-functions.php:1572
+msgid "Columns for Wide Screen"
+msgstr ""
+
+#: include/elementor/coming-soon.php:49
+msgid "Coming Soon"
+msgstr ""
+
+#: include/elementor/contact-info.php:212
+msgid "Contact  List"
+msgstr ""
+
+#: include/elementor/coming-soon.php:292 include/elementor/contact-form.php:47
+#: include/elementor/contact-form.php:157
+msgid "Contact Form"
+msgstr ""
+
+#: include/elementor/contact-info.php:47
+msgid "Contact Info"
+msgstr ""
+
+#: include/elementor/contact-info.php:322
+msgid "Contact Info - List"
+msgstr ""
+
+#: include/elementor/cat-banner.php:145 include/elementor/contact-info.php:213
+#: include/elementor/features.php:139 include/elementor/product-cat.php:149
+#: include/elementor/shop-location.php:197 include/elementor/slider.php:138
+msgid "Control all the style settings from Style tab"
+msgstr ""
+
+#: include/common-functions.php:2590
+msgid "Currency"
+msgstr ""
+
+#: include/common-functions.php:2595
+msgctxt "Currency Symbol"
+msgid "Baht"
+msgstr ""
+
+#: include/common-functions.php:2596
+msgctxt "Currency Symbol"
+msgid "BD Taka"
+msgstr ""
+
+#: include/common-functions.php:2597
+msgctxt "Currency Symbol"
+msgid "Dollar"
+msgstr ""
+
+#: include/common-functions.php:2598
+msgctxt "Currency Symbol"
+msgid "Euro"
+msgstr ""
+
+#: include/common-functions.php:2599
+msgctxt "Currency Symbol"
+msgid "Franc"
+msgstr ""
+
+#: include/common-functions.php:2600
+msgctxt "Currency Symbol"
+msgid "Guilder"
+msgstr ""
+
+#: include/common-functions.php:2601
+msgctxt "Currency Symbol"
+msgid "Krona"
+msgstr ""
+
+#: include/common-functions.php:2602
+msgctxt "Currency Symbol"
+msgid "Lira"
+msgstr ""
+
+#: include/common-functions.php:2603
+msgctxt "Currency Symbol"
+msgid "Peso"
+msgstr ""
+
+#: include/common-functions.php:2604
+msgctxt "Currency Symbol"
+msgid "Pound Sterling"
+msgstr ""
+
+#: include/common-functions.php:2605
+msgctxt "Currency Symbol"
+msgid "Real"
+msgstr ""
+
+#: include/common-functions.php:2606
+msgctxt "Currency Symbol"
+msgid "Ruble"
+msgstr ""
+
+#: include/common-functions.php:2607
+msgctxt "Currency Symbol"
+msgid "Rupee (Indian)"
+msgstr ""
+
+#: include/common-functions.php:2608
+msgctxt "Currency Symbol"
+msgid "Shekel"
+msgstr ""
+
+#: include/common-functions.php:2609
+msgctxt "Currency Symbol"
+msgid "Won"
+msgstr ""
+
+#: include/common-functions.php:2610
+msgctxt "Currency Symbol"
+msgid "Yen/Yuan"
+msgstr ""
+
+#: include/common-functions.php:2611
+msgid "Custom"
+msgstr ""
+
+#: include/common-functions.php:2620
+msgid "Custom Symbol"
+msgstr ""
+
+#: include/template/single-event.php:79
+msgid "Date"
+msgstr ""
+
+#: include/elementor/product-cat.php:270
+msgid "Define"
+msgstr ""
+
+#: include/widgets/tp-blog-post-sidebar.php:77
+#: include/widgets/tp-service-list.php:57
+msgid "DESC"
+msgstr ""
+
+#: include/common-functions.php:2015
+msgid "Descending"
+msgstr ""
+
+#: include/common-functions.php:1376 include/elementor/contact-form.php:220
+#: include/elementor/contact-info.php:197
+#: include/elementor/contact-info.php:311
+#: include/elementor/feature-product-info.php:190
+#: include/elementor/features.php:253 include/elementor/info-banner.php:172
+#: include/elementor/order-track.php:283 include/elementor/slider.php:238
+msgid "Description"
+msgstr ""
+
+#: include/elementor/blog-post.php:115 include/elementor/brand.php:119
+#: include/elementor/cat-banner.php:122 include/elementor/coming-soon.php:137
+#: include/elementor/contact-form.php:135
+#: include/elementor/contact-info.php:118 include/elementor/features.php:116
+#: include/elementor/heading.php:122 include/elementor/instagram-post.php:117
+#: include/elementor/order-track.php:133 include/elementor/product-cat.php:124
+#: include/elementor/shop-location.php:115 include/elementor/slider.php:115
+#: include/elementor/team.php:116 include/elementor/tp-product-tab.php:114
+msgid "Design Layout"
+msgstr ""
+
+#: include/elementor/product-cat.php:273
+msgid "Develop"
+msgstr ""
+
+#: include/elementor/slider.php:360
+msgid "Development."
+msgstr ""
+
+#: include/elementor/product-cat.php:267
+msgid "Discover"
+msgstr ""
+
+#: include/common-functions.php:2141
+msgid "Dots?"
+msgstr ""
+
+#: include/elementor/team.php:417
+msgid "Dribbble"
+msgstr ""
+
+#: include/custom-post-footer.php:90
+msgid "Edit Footer Category"
+msgstr ""
+
+#: include/custom-post-footer.php:41 include/custom-post-portfolio.php:41
+#: include/custom-post-services.php:41
+msgid "Edit Item"
+msgstr ""
+
+#: include/custom-post-portfolio.php:90
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:90
+msgid "Edit Service Category"
+msgstr ""
+
+#: tp-core-helper.php:168 tp-core-helper.php:191
+msgid "Elementor"
+msgstr ""
+
+#: include/elementor/team.php:271
+msgid "Email"
+msgstr ""
+
+#: include/template/single-event.php:142
+msgid "End Time:"
+msgstr ""
+
+#: include/common-functions.php:2200
+msgid "Enter autoplay speed"
+msgstr ""
+
+#: include/elementor/slider.php:341
+msgid "Enter buttom text"
+msgstr ""
+
+#: include/common-functions.php:1219 include/common-functions.php:1878
+#: include/common-functions.php:2677 include/elementor/features.php:283
+#: include/elementor/slider.php:265
+msgid "Enter button text"
+msgstr ""
+
+#: include/common-functions.php:1972
+msgid "Exclude Categories"
+msgstr ""
+
+#: include/common-functions.php:1983
+msgid "Exclude Item"
+msgstr ""
+
+#: include/elementor/team.php:297
+msgid "Facebook"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:48
+msgid "Feature Product Info"
+msgstr ""
+
+#: include/elementor/features.php:245
+msgid "Feature Title"
+msgstr ""
+
+#: include/custom-post-footer.php:47 include/custom-post-portfolio.php:47
+#: include/custom-post-services.php:47
+msgid "Featured Image"
+msgstr ""
+
+#: include/elementor/features.php:47
+msgid "Features"
+msgstr ""
+
+#: include/elementor/features.php:347
+msgid "Features - List"
+msgstr ""
+
+#: include/elementor/features.php:310
+msgid "Features Link link"
+msgstr ""
+
+#: include/elementor/features.php:294
+msgid "Features Link Type"
+msgstr ""
+
+#: include/elementor/cat-banner.php:144 include/elementor/features.php:138
+#: include/elementor/product-cat.php:148
+msgid "Features List"
+msgstr ""
+
+#: include/elementor/brand.php:160 include/elementor/contact-info.php:223
+#: include/elementor/features.php:149 include/elementor/slider.php:148
+#: include/elementor/team.php:152
+msgid "Field condition"
+msgstr ""
+
+#: include/custom-post-footer.php:55 include/custom-post-portfolio.php:55
+#: include/custom-post-services.php:55
+msgid "Filter items list"
+msgstr ""
+
+#: include/common-functions.php:2211
+msgid "Filter?"
+msgstr ""
+
+#: include/elementor/team.php:378
+msgid "Flickr"
+msgstr ""
+
+#: include/custom-post-footer.php:33 include/custom-post-footer.php:34
+#: include/custom-post-footer.php:59
+msgid "Footer"
+msgstr ""
+
+#: include/custom-post-footer.php:84
+msgid "Footer Categories"
+msgstr ""
+
+#: include/custom-post-footer.php:100
+msgid "Footer Category list"
+msgstr ""
+
+#: include/custom-post-footer.php:101
+msgid "Footer Category list navigation"
+msgstr ""
+
+#: include/widgets/tp-sidebar-form-widget.php:68
+msgid "Form Shortcode:"
+msgstr ""
+
+#: include/common-functions.php:2582
+msgid "Free forever,! No credit card required."
+msgstr ""
+
+#: include/elementor/feature-product-info.php:268
+msgid "From $49"
+msgstr ""
+
+#: include/elementor/team.php:443
+msgid "Github"
+msgstr ""
+
+#: include/elementor/team.php:365
+msgid "Google Plus"
+msgstr ""
+
+#: include/elementor/slider.php:194 include/elementor/slider.php:357
+msgid "Grow business."
+msgstr ""
+
+#: include/common-functions.php:1344 include/elementor/coming-soon.php:235
+#: include/elementor/contact-form.php:235
+#: include/elementor/contact-info.php:164 include/elementor/order-track.php:251
+#: include/elementor/shop-location.php:161 include/elementor/slider.php:206
+#: include/elementor/team.php:511
+msgid "H1"
+msgstr ""
+
+#: include/common-functions.php:1348 include/elementor/coming-soon.php:239
+#: include/elementor/contact-form.php:239
+#: include/elementor/contact-info.php:168 include/elementor/order-track.php:255
+#: include/elementor/shop-location.php:165 include/elementor/slider.php:210
+#: include/elementor/team.php:515
+msgid "H2"
+msgstr ""
+
+#: include/common-functions.php:1352 include/elementor/coming-soon.php:243
+#: include/elementor/contact-form.php:243
+#: include/elementor/contact-info.php:172 include/elementor/order-track.php:259
+#: include/elementor/shop-location.php:169 include/elementor/slider.php:214
+#: include/elementor/team.php:519
+msgid "H3"
+msgstr ""
+
+#: include/common-functions.php:1356 include/elementor/coming-soon.php:247
+#: include/elementor/contact-form.php:247
+#: include/elementor/contact-info.php:176 include/elementor/order-track.php:263
+#: include/elementor/shop-location.php:173 include/elementor/slider.php:218
+#: include/elementor/team.php:523
+msgid "H4"
+msgstr ""
+
+#: include/common-functions.php:1360 include/elementor/coming-soon.php:251
+#: include/elementor/contact-form.php:251
+#: include/elementor/contact-info.php:180 include/elementor/order-track.php:267
+#: include/elementor/shop-location.php:177 include/elementor/slider.php:222
+#: include/elementor/team.php:527
+msgid "H5"
+msgstr ""
+
+#: include/common-functions.php:1364 include/elementor/coming-soon.php:255
+#: include/elementor/contact-form.php:255
+#: include/elementor/contact-info.php:184 include/elementor/order-track.php:271
+#: include/elementor/shop-location.php:181 include/elementor/slider.php:226
+#: include/elementor/team.php:531
+msgid "H6"
+msgstr ""
+
+#: include/elementor/heading.php:52
+msgid "Heading"
+msgstr ""
+
+#: include/common-functions.php:2119
+msgid "Height"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:181
+#: include/elementor/info-banner.php:163
+msgid "Hi, I amm brian wilson! "
+msgstr ""
+
+#: include/common-functions.php:1207 include/common-functions.php:1308
+#: include/common-functions.php:2144 include/common-functions.php:2158
+#: include/common-functions.php:2237 include/common-functions.php:2665
+#: include/elementor/contact-form.php:188 include/elementor/team.php:585
+msgid "Hide"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://themepure.net/"
+msgstr ""
+
+#: include/common-functions.php:1250 include/common-functions.php:1908
+#: include/common-functions.php:2708 include/elementor/features.php:315
+#: include/elementor/slider.php:295
+msgid "https://your-link.com"
+msgstr ""
+
+#: include/common-functions.php:2421 include/common-functions.php:2497
+#: include/elementor/cat-banner.php:159 include/elementor/contact-info.php:243
+#: include/elementor/features.php:169 include/elementor/order-track.php:167
+#: include/elementor/product-cat.php:164
+#: include/elementor/shop-location.php:214
+msgid "Icon"
+msgstr ""
+
+#: include/common-functions.php:2024
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:193
+#: include/elementor/info-banner.php:175
+msgid "Im a UX designer, prototyper, and a part-time 3D artist"
+msgstr ""
+
+#: include/common-functions.php:2420 include/common-functions.php:2496
+#: include/elementor/brand.php:177 include/elementor/cat-banner.php:158
+#: include/elementor/contact-info.php:242 include/elementor/features.php:168
+#: include/elementor/instagram-post.php:164
+#: include/elementor/order-track.php:166 include/elementor/product-cat.php:163
+#: include/elementor/shop-location.php:213 include/elementor/team.php:179
+msgid "Image"
+msgstr ""
+
+#: include/common-functions.php:1961
+msgid "Include Categories"
+msgstr ""
+
+#: include/common-functions.php:2169
+msgid "Infinite?"
+msgstr ""
+
+#: include/elementor/info-banner.php:48
+msgid "Info Banner"
+msgstr ""
+
+#: include/elementor/team.php:171
+msgid "Information"
+msgstr ""
+
+#: include/custom-post-footer.php:51 include/custom-post-portfolio.php:51
+#: include/custom-post-services.php:51
+msgid "Insert into item"
+msgstr ""
+
+#: include/elementor/shop-location.php:280
+msgid "Insert Location"
+msgstr ""
+
+#: include/elementor/team.php:325
+msgid "Instagram"
+msgstr ""
+
+#: include/elementor/instagram-post.php:140
+#: include/elementor/instagram-post.php:180
+msgid "Instagram Item"
+msgstr ""
+
+#: include/elementor/instagram-post.php:48
+msgid "Instagram Post"
+msgstr ""
+
+#: include/custom-post-footer.php:35 include/custom-post-portfolio.php:35
+#: include/custom-post-services.php:35
+msgid "Item Archives"
+msgstr ""
+
+#: include/custom-post-footer.php:53 include/custom-post-portfolio.php:53
+#: include/custom-post-services.php:53
+msgid "Items list"
+msgstr ""
+
+#: include/custom-post-footer.php:54 include/custom-post-portfolio.php:54
+#: include/custom-post-services.php:54
+msgid "Items list navigation"
+msgstr ""
+
+#: include/elementor/team.php:209
+msgid "Job Title"
+msgstr ""
+
+#: include/elementor/blog-post.php:124 include/elementor/brand.php:128
+#: include/elementor/cat-banner.php:131 include/elementor/coming-soon.php:146
+#: include/elementor/contact-form.php:144
+#: include/elementor/contact-info.php:127 include/elementor/features.php:125
+#: include/elementor/heading.php:131 include/elementor/instagram-post.php:126
+#: include/elementor/instagram-post.php:153
+#: include/elementor/order-track.php:142 include/elementor/product-cat.php:133
+#: include/elementor/shop-location.php:124 include/elementor/slider.php:124
+#: include/elementor/team.php:125 include/elementor/tp-product-tab.php:123
+msgid "Layout 1"
+msgstr ""
+
+#: include/elementor/blog-post.php:125 include/elementor/brand.php:129
+#: include/elementor/cat-banner.php:132 include/elementor/coming-soon.php:147
+#: include/elementor/contact-form.php:145
+#: include/elementor/contact-info.php:128 include/elementor/features.php:126
+#: include/elementor/heading.php:132 include/elementor/instagram-post.php:127
+#: include/elementor/instagram-post.php:154
+#: include/elementor/order-track.php:143 include/elementor/product-cat.php:134
+#: include/elementor/shop-location.php:125 include/elementor/slider.php:125
+#: include/elementor/team.php:126 include/elementor/tp-product-tab.php:124
+msgid "Layout 2"
+msgstr ""
+
+#: include/elementor/heading.php:133 include/elementor/slider.php:126
+#: include/elementor/tp-product-tab.php:125
+msgid "Layout 3"
+msgstr ""
+
+#: include/elementor/heading.php:134
+msgid "Layout 4"
+msgstr ""
+
+#: include/elementor/heading.php:135
+msgid "Layout 5"
+msgstr ""
+
+#: include/elementor/heading.php:136
+msgid "Layout 6"
+msgstr ""
+
+#: include/common-functions.php:1953
+msgid "Leave blank or enter -1 for all."
+msgstr ""
+
+#: include/elementor/coming-soon.php:271 include/elementor/contact-form.php:271
+#: include/elementor/team.php:547
+msgid "Left"
+msgstr ""
+
+#: include/elementor/team.php:339
+msgid "LinkedIn"
+msgstr ""
+
+#: include/elementor/team.php:237
+msgid "Links"
+msgstr ""
+
+#: include/elementor/shop-location.php:291
+msgid "Location - List"
+msgstr ""
+
+#: include/elementor/shop-location.php:196
+msgid "Location List"
+msgstr ""
+
+#: include/elementor/coming-soon.php:177
+msgid "Logo Redirect Link"
+msgstr ""
+
+#: include/elementor/slider.php:137
+msgid "Main Slider"
+msgstr ""
+
+#: include/elementor/features.php:358
+msgid "Marketing & Reporting"
+msgstr ""
+
+#: include/elementor/slider.php:363
+msgid "Marketing."
+msgstr ""
+
+#: include/elementor/team.php:142
+msgid "Members"
+msgstr ""
+
+#: include/custom-post-footer.php:88
+msgid "New Footer Category Name"
+msgstr ""
+
+#: include/custom-post-footer.php:40 include/custom-post-portfolio.php:40
+#: include/custom-post-services.php:40
+msgid "New Item"
+msgstr ""
+
+#: include/custom-post-portfolio.php:88
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: include/custom-post-services.php:88
+msgid "New Service Category Name"
+msgstr ""
+
+#: page-settings/manager.php:24
+msgid "New Tab"
+msgstr ""
+
+#: include/elementor/tp-product-tab.php:532
+msgid "Next"
+msgstr ""
+
+#: include/common-functions.php:1866 include/common-functions.php:2027
+#: include/common-functions.php:2172 include/common-functions.php:2186
+#: include/common-functions.php:2214 include/elementor/features.php:267
+#: include/elementor/slider.php:252 include/elementor/team.php:247
+msgid "No"
+msgstr ""
+
+#: include/elementor/coming-soon.php:111 include/elementor/contact-form.php:110
+#: include/elementor/order-track.php:109
+msgid "No contact form found"
+msgstr ""
+
+#: include/custom-post-footer.php:99
+msgid "No Footer Category"
+msgstr ""
+
+#: include/custom-post-portfolio.php:99
+msgid "No Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:99
+msgid "No Service Category"
+msgstr ""
+
+#: include/common-functions.php:2594
+msgid "None"
+msgstr ""
+
+#: include/custom-post-footer.php:98 include/custom-post-portfolio.php:98
+#: include/custom-post-services.php:98
+msgid "Not Found"
+msgstr ""
+
+#: include/custom-post-footer.php:45 include/custom-post-portfolio.php:45
+#: include/custom-post-services.php:45
+msgid "Not found"
+msgstr ""
+
+#: include/custom-post-footer.php:46 include/custom-post-portfolio.php:46
+#: include/custom-post-services.php:46
+msgid "Not found in Trash"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:285
+msgid "Offer Note"
+msgstr ""
+
+#: include/common-functions.php:1993
+msgid "Offset"
+msgstr ""
+
+#: include/common-functions.php:2011
+msgid "Order"
+msgstr ""
+
+#: include/common-functions.php:2001
+msgid "Order By"
+msgstr ""
+
+#: include/elementor/order-track.php:47
+msgid "Order Tracker"
+msgstr ""
+
+#: include/template/single-campaign.php:66
+msgid "our goal"
+msgstr ""
+
+#: include/common-functions.php:2234
+msgid "Pagination"
+msgstr ""
+
+#: include/custom-post-footer.php:86 include/custom-post-portfolio.php:86
+#: include/custom-post-services.php:86
+msgid "Parent Item"
+msgstr ""
+
+#: include/custom-post-footer.php:36 include/custom-post-footer.php:87
+#: include/custom-post-portfolio.php:36 include/custom-post-portfolio.php:87
+#: include/custom-post-services.php:36 include/custom-post-services.php:87
+msgid "Parent Item:"
+msgstr ""
+
+#: include/common-functions.php:2648
+msgid "Per Month"
+msgstr ""
+
+#: include/common-functions.php:2646
+msgid "Period"
+msgstr ""
+
+#: include/elementor/team.php:284
+msgid "Phone"
+msgstr ""
+
+#: tp-core-helper.php:215
+msgid "PHP"
+msgstr ""
+
+#: include/elementor/team.php:430
+msgid "Pinterest"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:182
+#: include/elementor/info-banner.php:164
+msgid "Placeholder Text"
+msgstr ""
+
+#: include/elementor/order-track.php:406
+msgid "Please install following plugin 'Order Tracker for WooCommerce'."
+msgstr ""
+
+#: include/elementor/coming-soon.php:423 include/elementor/contact-form.php:340
+#: include/elementor/contact-form.php:369
+msgid "Please Select contact form."
+msgstr ""
+
+#: include/custom-post-footer.php:96
+msgid "Popular Footer Category"
+msgstr ""
+
+#: include/custom-post-portfolio.php:96
+msgid "Popular Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:96
+msgid "Popular Service Category"
+msgstr ""
+
+#: include/custom-post-portfolio.php:33 include/custom-post-portfolio.php:34
+#: include/custom-post-portfolio.php:59
+msgid "Portfolio"
+msgstr ""
+
+#: include/custom-post-portfolio.php:84
+msgid "Portfolio Categories"
+msgstr ""
+
+#: include/custom-post-portfolio.php:100
+msgid "Portfolio Category list"
+msgstr ""
+
+#: include/custom-post-portfolio.php:101
+msgid "Portfolio Category list navigation"
+msgstr ""
+
+#: include/custom-post-footer.php:31
+msgctxt "Post Type General Name"
+msgid "Footers"
+msgstr ""
+
+#: include/custom-post-portfolio.php:31
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: include/custom-post-services.php:31
+msgctxt "Post Type General Name"
+msgid "Services"
+msgstr ""
+
+#: include/custom-post-footer.php:32
+msgctxt "Post Type Singular Name"
+msgid "Footer"
+msgstr ""
+
+#: include/custom-post-portfolio.php:32
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: include/custom-post-services.php:32
+msgctxt "Post Type Singular Name"
+msgid "Service"
+msgstr ""
+
+#: include/common-functions.php:1952
+msgid "Posts Per Page"
+msgstr ""
+
+#: include/elementor/tp-product-tab.php:531
+msgid "Prev"
+msgstr ""
+
+#: include/common-functions.php:2634
+msgid "Price"
+msgstr ""
+
+#: include/common-functions.php:2579
+msgid "Price Description"
+msgstr ""
+
+#: include/common-functions.php:2569
+msgid "Price Title"
+msgstr ""
+
+#: include/elementor/product-cat.php:54
+msgid "Product Category"
+msgstr ""
+
+#: include/elementor/tp-product-tab.php:45
+msgid "Product Tab"
+msgstr ""
+
+#: include/template/single-campaign.php:70
+msgid "Raised"
+msgstr ""
+
+#: include/elementor/blog-post.php:341
+msgid "Read More"
+msgstr ""
+
+#: include/custom-post-footer.php:49 include/custom-post-portfolio.php:49
+#: include/custom-post-services.php:49
+msgid "Remove featured image"
+msgstr ""
+
+#: include/elementor/coming-soon.php:279 include/elementor/contact-form.php:279
+#: include/elementor/team.php:555
+msgid "Right"
+msgstr ""
+
+#: include/common-functions.php:1469 include/common-functions.php:1592
+#: include/common-functions.php:1712 include/common-functions.php:2285
+msgid "Screen width equal to or greater than 1200px"
+msgstr ""
+
+#: include/common-functions.php:1687 include/common-functions.php:2260
+msgid "Screen width equal to or greater than 1920px"
+msgstr ""
+
+#: include/common-functions.php:1509 include/common-functions.php:1628
+#: include/common-functions.php:1762 include/common-functions.php:2335
+msgid "Screen width equal to or greater than 768px"
+msgstr ""
+
+#: include/common-functions.php:1489 include/common-functions.php:1610
+#: include/common-functions.php:1737 include/common-functions.php:2310
+msgid "Screen width equal to or greater than 992px"
+msgstr ""
+
+#: include/common-functions.php:1812 include/common-functions.php:2385
+msgid "Screen width less than 575px"
+msgstr ""
+
+#: include/common-functions.php:1787 include/common-functions.php:2360
+msgid "Screen width less than 767"
+msgstr ""
+
+#: include/common-functions.php:1529 include/common-functions.php:1646
+msgid "Screen width less than 767px"
+msgstr ""
+
+#: include/common-functions.php:1573
+msgid "Screen width upto 1200px"
+msgstr ""
+
+#: include/elementor/search-box.php:45
+msgid "Search Box"
+msgstr ""
+
+#: include/elementor/search-box.php:132
+msgid "Search Button Title"
+msgstr ""
+
+#: include/elementor/search-box.php:113
+msgid "Search Content"
+msgstr ""
+
+#: include/custom-post-footer.php:97
+msgid "Search Footer Category"
+msgstr ""
+
+#: include/elementor/search-box.php:134
+msgid "Search Here"
+msgstr ""
+
+#: include/elementor/search-box.php:161
+msgid "Search here"
+msgstr ""
+
+#: include/custom-post-footer.php:44 include/custom-post-portfolio.php:44
+#: include/custom-post-services.php:44
+msgid "Search Item"
+msgstr ""
+
+#: include/custom-post-portfolio.php:97
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:97
+msgid "Search Service Category"
+msgstr ""
+
+#: include/common-functions.php:1305 include/elementor/contact-form.php:185
+msgid "Section Title & Content"
+msgstr ""
+
+#: include/common-functions.php:1973
+msgid "Select a category to exclude"
+msgstr ""
+
+#: include/common-functions.php:1962
+msgid "Select a category to include or leave blank for all."
+msgstr ""
+
+#: include/elementor/slider.php:311
+msgid "Select Button Link Page"
+msgstr ""
+
+#: include/elementor/features.php:332
+msgid "Select Feature Link Page"
+msgstr ""
+
+#: include/elementor/coming-soon.php:105 include/elementor/coming-soon.php:299
+#: include/elementor/contact-form.php:104
+#: include/elementor/contact-form.php:164 include/elementor/order-track.php:103
+msgid "Select Form"
+msgstr ""
+
+#: include/common-functions.php:2416 include/common-functions.php:2492
+#: include/elementor/cat-banner.php:154 include/elementor/contact-info.php:238
+#: include/elementor/features.php:164 include/elementor/order-track.php:162
+#: include/elementor/product-cat.php:159
+#: include/elementor/shop-location.php:209
+msgid "Select Icon Type"
+msgstr ""
+
+#: include/common-functions.php:2098 include/elementor/blog-post.php:121
+#: include/elementor/brand.php:125 include/elementor/cat-banner.php:128
+#: include/elementor/coming-soon.php:143 include/elementor/contact-form.php:141
+#: include/elementor/contact-info.php:124 include/elementor/features.php:122
+#: include/elementor/heading.php:128 include/elementor/instagram-post.php:123
+#: include/elementor/instagram-post.php:150
+#: include/elementor/order-track.php:139 include/elementor/product-cat.php:130
+#: include/elementor/shop-location.php:121 include/elementor/slider.php:121
+#: include/elementor/team.php:122 include/elementor/tp-product-tab.php:120
+msgid "Select Layout"
+msgstr ""
+
+#: include/custom-post-footer.php:93 include/custom-post-portfolio.php:93
+#: include/custom-post-services.php:93
+msgid "Separate items with commas"
+msgstr ""
+
+#: include/custom-post-services.php:33 include/custom-post-services.php:34
+#: include/custom-post-services.php:59
+msgid "Service"
+msgstr ""
+
+#: include/custom-post-services.php:84
+msgid "Service Categories"
+msgstr ""
+
+#: include/custom-post-services.php:100
+msgid "Service Category list"
+msgstr ""
+
+#: include/custom-post-services.php:101
+msgid "Service Category list navigation"
+msgstr ""
+
+#: include/elementor/product-cat.php:245
+msgid "Service Title"
+msgstr ""
+
+#: include/elementor/product-cat.php:262
+msgid "Services - List"
+msgstr ""
+
+#: include/custom-post-footer.php:48 include/custom-post-portfolio.php:48
+#: include/custom-post-services.php:48
+msgid "Set featured image"
+msgstr ""
+
+#: page-settings/manager.php:42
+msgid "Settings"
+msgstr ""
+
+#: include/elementor/team.php:571
+msgid "Shape Control"
+msgstr ""
+
+#: include/elementor/team.php:582
+msgid "Shape On/Off"
+msgstr ""
+
+#: include/elementor/shop-location.php:47
+msgid "Shop Location"
+msgstr ""
+
+#: include/common-functions.php:1206 include/common-functions.php:1307
+#: include/common-functions.php:2143 include/common-functions.php:2157
+#: include/common-functions.php:2236 include/common-functions.php:2664
+#: include/elementor/contact-form.php:187 include/elementor/team.php:584
+msgid "Show"
+msgstr ""
+
+#: include/common-functions.php:1204 include/common-functions.php:2662
+msgid "Show Button"
+msgstr ""
+
+#: include/elementor/team.php:244
+msgid "Show Options?"
+msgstr ""
+
+#: include/elementor/slider.php:47
+msgid "Slider"
+msgstr ""
+
+#: include/elementor/slider.php:352
+msgid "Slider List"
+msgstr ""
+
+#: include/elementor/contact-info.php:330
+msgid "south Africa"
+msgstr ""
+
+#: include/template/single-event.php:74
+msgid "Speaker"
+msgstr ""
+
+#: include/elementor/slider.php:340
+msgid "Start From $99.99"
+msgstr ""
+
+#: include/template/single-event.php:153
+msgid "Start Time:"
+msgstr ""
+
+#: include/elementor/brand.php:163 include/elementor/contact-info.php:226
+#: include/elementor/features.php:152 include/elementor/slider.php:151
+#: include/elementor/team.php:155
+msgid "Style 1"
+msgstr ""
+
+#: include/elementor/brand.php:164 include/elementor/contact-info.php:227
+#: include/elementor/features.php:153 include/elementor/slider.php:152
+#: include/elementor/team.php:156
+msgid "Style 2"
+msgstr ""
+
+#: include/elementor/slider.php:153
+msgid "Style 3"
+msgstr ""
+
+#: include/widgets/tp-blog-post-sidebar.php:78
+msgid "style_1"
+msgstr ""
+
+#: include/common-functions.php:1318 include/elementor/coming-soon.php:200
+#: include/elementor/contact-form.php:197
+#: include/elementor/feature-product-info.php:168
+#: include/elementor/info-banner.php:150 include/elementor/slider.php:177
+msgid "Sub Title"
+msgstr ""
+
+#: include/common-functions.php:2422 include/common-functions.php:2498
+#: include/elementor/cat-banner.php:160 include/elementor/contact-info.php:244
+#: include/elementor/features.php:170 include/elementor/order-track.php:168
+#: include/elementor/product-cat.php:165
+#: include/elementor/shop-location.php:215
+msgid "SVG"
+msgstr ""
+
+#: include/common-functions.php:2435 include/common-functions.php:2508
+#: include/elementor/contact-info.php:255 include/elementor/features.php:183
+#: include/elementor/order-track.php:178
+#: include/elementor/shop-location.php:225
+msgid "SVG Code Here"
+msgstr ""
+
+#: include/custom-post-footer.php:82
+msgctxt "Taxonomy General Name"
+msgid "Footer Categories"
+msgstr ""
+
+#: include/custom-post-portfolio.php:82
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: include/custom-post-services.php:82
+msgctxt "Taxonomy General Name"
+msgid "Service Categories"
+msgstr ""
+
+#: include/custom-post-footer.php:83
+msgctxt "Taxonomy Singular Name"
+msgid "Footer Categories"
+msgstr ""
+
+#: include/custom-post-portfolio.php:83
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: include/custom-post-services.php:83
+msgctxt "Taxonomy Singular Name"
+msgid "Service Categories"
+msgstr ""
+
+#: include/elementor/team.php:47
+msgid "Team"
+msgstr ""
+
+#: controls/tpgradient.php:71
+msgctxt "Text Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: controls/tpgradient.php:67
+msgctxt "Text Color Control"
+msgid "Solid"
+msgstr ""
+
+#. Author of the plugin
+msgid "Theme_Pure"
+msgstr ""
+
+#. Description of the plugin
+msgid "Themepure elementor core plugin."
+msgstr ""
+
+#: include/elementor/slider.php:241
+msgid ""
+"There are many variations of passages of Lorem Ipsum available but the "
+"majority have suffered alteration."
+msgstr ""
+
+#: include/common-functions.php:190
+#, php-format
+msgid "This input field has support for the following HTML tags: %1$s"
+msgstr ""
+
+#: include/common-functions.php:1329 page-settings/manager.php:50
+#: page-settings/manager.php:52 include/elementor/coming-soon.php:211
+#: include/elementor/contact-form.php:208
+#: include/elementor/contact-info.php:147
+#: include/elementor/feature-product-info.php:179
+#: include/elementor/features.php:242 include/elementor/info-banner.php:161
+#: include/elementor/order-track.php:234 include/elementor/product-cat.php:242
+#: include/elementor/shop-location.php:144 include/elementor/slider.php:191
+#: include/elementor/team.php:194 include/elementor/tp-product-tab.php:136
+#: include/elementor/tp-product-tab.php:144
+msgid "Title"
+msgstr ""
+
+#: include/elementor/coming-soon.php:159 include/elementor/contact-form.php:178
+#: include/elementor/contact-info.php:140
+#: include/elementor/feature-product-info.php:138
+#: include/elementor/order-track.php:155
+#: include/elementor/shop-location.php:137
+msgid "Title & Content"
+msgstr ""
+
+#: include/elementor/info-banner.php:142
+msgid "Title & Description"
+msgstr ""
+
+#: include/common-functions.php:1340 include/elementor/coming-soon.php:231
+#: include/elementor/contact-form.php:231
+#: include/elementor/contact-info.php:160 include/elementor/order-track.php:247
+#: include/elementor/shop-location.php:157 include/elementor/slider.php:202
+#: include/elementor/team.php:507
+msgid "Title HTML Tag"
+msgstr ""
+
+#: include/widgets/tp-portfolio-info-widget.php:82
+#: include/widgets/tp-sidebar-form-widget.php:63
+msgid "Title:"
+msgstr ""
+
+#: include/template/single-campaign.php:74
+msgid "to go"
+msgstr ""
+
+#: plugin.php:233
+msgid "TP - Feather Icons"
+msgstr ""
+
+#: plugin.php:260
+msgid "TP - Flaticons"
+msgstr ""
+
+#: plugin.php:329
+msgid "TP - Fontawesome Pro Light"
+msgstr ""
+
+#: plugin.php:57
+msgid "TP Addons"
+msgstr ""
+
+#. Name of the plugin
+msgid "TP Core"
+msgstr ""
+
+#: tp-core-helper.php:167 tp-core-helper.php:190 tp-core-helper.php:214
+msgid "Tp Core"
+msgstr ""
+
+#: include/elementor/contact-info.php:200
+msgid "TP Description Content Here"
+msgstr ""
+
+#: include/elementor/order-track.php:286
+msgid "TP Description Content Here."
+msgstr ""
+
+#: include/elementor/team.php:195
+msgid "TP Member Title"
+msgstr ""
+
+#: include/elementor/team.php:210
+msgid "TP Officer"
+msgstr ""
+
+#: include/widgets/tp-portfolio-info-widget.php:21
+msgid "TP Portfolio Info"
+msgstr ""
+
+#: include/widgets/tp-portfolio-info-widget.php:22
+msgid "TP Portfolio Info Widget by Theme_Pure"
+msgstr ""
+
+#: include/elementor/contact-form.php:223
+msgid "TP section description here"
+msgstr ""
+
+#: include/widgets/tp-sidebar-form-widget.php:21
+msgid "TP Sidebar Form"
+msgstr ""
+
+#: include/widgets/tp-sidebar-form-widget.php:22
+msgid "TP Sidebar Form Widget by Theme_Pure"
+msgstr ""
+
+#: include/elementor/coming-soon.php:203 include/elementor/contact-form.php:200
+msgid "TP Sub Title"
+msgstr ""
+
+#: include/elementor/brand.php:150 include/elementor/coming-soon.php:214
+#: include/elementor/contact-form.php:211
+#: include/elementor/contact-info.php:150 include/elementor/order-track.php:237
+#: include/elementor/shop-location.php:147
+msgid "TP Title Here"
+msgstr ""
+
+#: include/elementor/team.php:311
+msgid "Twitter"
+msgstr ""
+
+#: include/common-functions.php:1322 include/elementor/slider.php:181
+msgid "Type Before Heading Text"
+msgstr ""
+
+#: include/elementor/contact-info.php:201 include/elementor/order-track.php:287
+msgid "Type Description Text"
+msgstr ""
+
+#: include/elementor/team.php:211
+msgid "Type designation here"
+msgstr ""
+
+#: include/common-functions.php:1333 include/elementor/coming-soon.php:215
+#: include/elementor/contact-form.php:212
+#: include/elementor/contact-info.php:151 include/elementor/order-track.php:238
+#: include/elementor/shop-location.php:148 include/elementor/slider.php:195
+msgid "Type Heading Text"
+msgstr ""
+
+#: include/elementor/team.php:224
+msgid "Type link here"
+msgstr ""
+
+#: include/elementor/coming-soon.php:181
+msgid "Type Logo Link"
+msgstr ""
+
+#: include/common-functions.php:1380 include/elementor/contact-form.php:224
+#: include/elementor/slider.php:242
+msgid "Type section description here"
+msgstr ""
+
+#: include/elementor/coming-soon.php:204 include/elementor/contact-form.php:201
+msgid "Type Sub Heading Text"
+msgstr ""
+
+#: include/elementor/team.php:196
+msgid "Type title here"
+msgstr ""
+
+#: include/elementor/contact-info.php:333
+msgid "United Kingdom"
+msgstr ""
+
+#: include/elementor/contact-info.php:327
+msgid "united states"
+msgstr ""
+
+#: include/custom-post-footer.php:91
+msgid "Update Footer Category"
+msgstr ""
+
+#: include/custom-post-footer.php:42 include/custom-post-portfolio.php:42
+#: include/custom-post-services.php:42
+msgid "Update Item"
+msgstr ""
+
+#: include/custom-post-portfolio.php:91
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:91
+msgid "Update Service Category"
+msgstr ""
+
+#: include/common-functions.php:2445 include/common-functions.php:2518
+#: include/elementor/cat-banner.php:168 include/elementor/contact-info.php:265
+#: include/elementor/features.php:194 include/elementor/order-track.php:188
+#: include/elementor/product-cat.php:173
+#: include/elementor/shop-location.php:235
+msgid "Upload Icon Image"
+msgstr ""
+
+#: include/elementor/slider.php:166
+msgid "Upload Image"
+msgstr ""
+
+#: include/elementor/slider.php:324
+msgid "Upload Shape Image"
+msgstr ""
+
+#: include/custom-post-footer.php:52 include/custom-post-portfolio.php:52
+#: include/custom-post-services.php:52
+msgid "Uploaded to this item"
+msgstr ""
+
+#: include/elementor/cat-banner.php:247 include/elementor/product-cat.php:252
+msgid "URL"
+msgstr ""
+
+#: include/custom-post-footer.php:50 include/custom-post-portfolio.php:50
+#: include/custom-post-services.php:50
+msgid "Use as featured image"
+msgstr ""
+
+#: include/template/single-event.php:164
+msgid "Venue:"
+msgstr ""
+
+#: include/custom-post-footer.php:92
+msgid "View Footer Category"
+msgstr ""
+
+#: include/custom-post-footer.php:43 include/custom-post-portfolio.php:43
+#: include/custom-post-services.php:43
+msgid "View Item"
+msgstr ""
+
+#: include/custom-post-portfolio.php:92
+msgid "View Portfolio Category"
+msgstr ""
+
+#: include/custom-post-services.php:92
+msgid "View Service Category"
+msgstr ""
+
+#: include/elementor/team.php:391
+msgid "Vimeo"
+msgstr ""
+
+#: include/elementor/team.php:258
+msgid "Website Address"
+msgstr ""
+
+#: include/elementor/features.php:355
+msgid "Website Development"
+msgstr ""
+
+#: include/common-functions.php:1865 include/common-functions.php:2026
+#: include/common-functions.php:2171 include/common-functions.php:2185
+#: include/common-functions.php:2213 include/elementor/features.php:266
+#: include/elementor/slider.php:251 include/elementor/team.php:246
+msgid "Yes"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:269
+msgid "Your Badge Text"
+msgstr ""
+
+#: include/common-functions.php:2583
+msgid "Your Description Here"
+msgstr ""
+
+#: include/elementor/feature-product-info.php:171
+#: include/elementor/feature-product-info.php:194
+#: include/elementor/feature-product-info.php:288
+#: include/elementor/info-banner.php:153 include/elementor/info-banner.php:176
+#: include/elementor/tp-product-tab.php:147
+msgid "Your Text"
+msgstr ""
+
+#: include/elementor/tp-product-tab.php:146
+msgid "Your Title"
+msgstr ""
+
+#: include/common-functions.php:2572
+msgid "Your title here"
+msgstr ""
+
+#: include/elementor/brand.php:151
+msgid "Your Title Text"
+msgstr ""
+
+#: include/elementor/team.php:352
+msgid "Youtube"
+msgstr ""

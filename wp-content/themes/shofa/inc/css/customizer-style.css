@@ -1,0 +1,30 @@
+.customize-control-kirki-radio-image label {
+	margin-bottom: 10px;
+}
+div .customize-control-kirki-radio-image input:checked + label img {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 4px solid #2B4EFF;
+}
+div .customize-control-kirki-radio-image input:checked + label::after {
+	content: "\f147";
+	font-family: dashicons;
+	background-color: #2B4EFF;
+	position: absolute;
+	right: -8px;
+	bottom: 4px;
+	border-top-left-radius: 2px;
+	color: #fff;
+	line-height: normal;
+	font-size: 20px;
+	padding: 1px 0 0 1px;
+}
+
+#input_choose_default_header > label {
+	background: #fff;
+	padding: 3px;
+}
+div .customize-control-kirki-radio-image #input_choose_default_header input:checked +  label::after {
+	right: -5px;
+	bottom: 8px;
+}

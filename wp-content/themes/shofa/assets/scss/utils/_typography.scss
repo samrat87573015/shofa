@@ -1,0 +1,14 @@
+
+// font url
+$font-url: 'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap';
+
+// font family
+$font-family: (
+    ff: (
+        body: "'Jost', sans-serif",
+        heading: "'Jost', sans-serif",
+        p: "'Jost', sans-serif",
+        fontawesome: '"Font Awesome 5 Pro"',
+    )
+);
+

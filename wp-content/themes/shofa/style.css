@@ -1,0 +1,229 @@
+/*!
+Theme Name: Shofa
+Theme URI: https://smartthemebd.com/wp/shofa/
+Author: Theme_Pure
+Author URI: https://themeforest.net/user/smart_theme_bd/
+Description: Shofa - Furniture eCommerce WordPress Theme
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: shofa
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.product__action .tinvwl_add_to_wishlist-text{
+	display: none;
+}
+a.icon-btn.woosq-btn {
+    display: none;
+}
+.product__list-action span.tinvwl_add_to_wishlist-text {
+    display: none;
+}
+.product__action a.icon-btn.woosq-btn,.product__list-action a.icon-btn.woosq-btn {
+    display: inline-block;
+}
+.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-loop-button-wrapper {
+    display: none;
+}
+/*rating*/
+.product__rating .star-rating {
+    margin-bottom: 0;
+}
+.star-rating {
+    position: relative;
+    font-size: 11px;
+    width: 77px;
+    overflow: hidden;
+    line-height: 1;
+    display: flex;
+}
+.tpproduct-details__tag-area .star-rating {
+    margin-left: 15px;
+}
+.star-rating::before {
+    font-family: "Font Awesome 5 Pro";
+    content: '\f005\f005\f005\f005\f005';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #D9D9EA;
+}
+.star-rating span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    font-size: 11px;
+}
+.star-rating span::before {
+    font-family: "Font Awesome 5 Pro";
+    content: '\f005\f005\f005\f005\f005';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--tp-text-primary);
+    font-weight: 900;
+    display: inline-block;
+}
+/*rating end*/
+a.ajax_add_to_cart.added {
+    display: none;
+}
+
+/*rating icon*/
+@font-face {
+ font-family:star;
+ src:url(assets/fonts/woo/star.eot);
+ src:url(assets/fonts/woo/star.eot?#iefix) format("embedded-opentype"),
+ url(assets/fonts/woo/star.woff) format("woff"),
+ url(assets/fonts/woo/star.ttf) format("truetype"),
+ url(assets/fonts/woo/star.svg#star) format("svg");
+ font-weight:400;
+ font-style:normal
+}
+@font-face {
+ font-family:WooCommerce;
+ src:url(assets/fonts/woo/WooCommerce.eot);
+ src:url(assets/fonts/woo/WooCommerce.eot?#iefix) format("embedded-opentype"),
+ url(assets/fonts/woo/WooCommerce.woff) format("woff"),
+ url(assets/fonts/woo/WooCommerce.ttf) format("truetype"),
+ url(assets/fonts/woo/WooCommerce.svg#WooCommerce) format("svg");
+ font-weight:400;
+ font-style:normal
+}
+.woocommerce p.stars a {
+ position:relative;
+ height:1em;
+ width:1em;
+ text-indent:-999em;
+ display:inline-block;
+ text-decoration:none
+}
+.woocommerce p.stars a::before {
+ display:block;
+ position:absolute;
+ top:0;
+ left:0;
+ width:1em;
+ height:1em;
+ line-height:1;
+ font-family:WooCommerce;
+ content:"\e021";
+ text-indent:0
+}
+.woocommerce p.stars a:hover~a::before {
+ content:"\e021"
+}
+.woocommerce p.stars:hover a::before {
+ content:"\e020"
+}
+.woocommerce p.stars.selected a.active::before {
+ content:"\e020"
+}
+.woocommerce p.stars.selected a.active~a::before {
+ content:"\e021"
+}
+.woocommerce p.stars.selected a:not(.active)::before {
+    content: "\e020";
+}
+
+/*spinner */
+@-webkit-keyframes spin{
+    100%{
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+@keyframes spin{
+    100%{
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+.woocommerce a.button.loading::before,.woocommerce button.button.loading::after,.woocommerce input.button.loading::after{
+    font-family:WooCommerce;
+    content:"\e01c";
+    vertical-align:top;
+    font-weight:400;
+    top:.618em;
+    right:1em;
+    -webkit-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    color: red;
+    display: inline-block;
+}
+
+.product__action a.added_to_cart.wc-forward::after {
+	content: '✔';
+	position: relative;
+	font-family: var(--icon-font);
+	font-size: 16px;
+	font-weight: 700;
+}
+.product__action .added_to_cart.wc-forward {
+	font-size: 0;
+}
+.loading svg{
+    display: none;
+}
+
+/*compare*/
+.woosc-area {
+    background: no-repeat !important;
+}
+
+/* archive */
+.tpproduct__rating .star-rating span::before {
+	color: var(--tp-text-primary);
+}
+
+.product__item .added_to_cart.wc-forward {
+	font-size: 0;
+}
+
+.tp-core-product:hover {
+    position: relative;
+    z-index: 10;
+}
+
+section.woosc-quick-table > h2 {
+    font-size: 26px;
+    color: var(--tp-text-body);
+    font-weight: 600;
+}
+
+.has_gallery.woocommerce-product-gallery.woocommerce-product-gallery--with-images {
+    position: relative;
+    padding-right: 25px;
+    padding-left: 90px;
+}
+
+.flex-control-nav.flex-control-thumbs {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flex-control-nav.flex-control-thumbs li {
+    margin-bottom: 15px;
+}
+
+.woocommerce-product-gallery .product-thumbnails li.slick-current img {
+    border: 1px solid var(--tp-text-primary);
+}
+
+.woocommerce .cart-button.price-empty {
+    display: none;
+}
+
+a.cart-button.icon-btn.button.stock-out {
+    display: none;
+}
+
+.elementor-section .elementor-container {
+    flex-wrap: wrap;
+}

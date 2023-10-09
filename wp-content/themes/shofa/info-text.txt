@@ -1,0 +1,9 @@
+footer style 1 -> Home main
+footer style 2 -> Lawyer
+footer style 3 -> Photographer
+footer style 4 -> Agency
+footer style 5 -> Creative
+footer style 6 -> Startup
+footer style 7 -> Architechture
+footer style 8 -> Politician
+footer style 9 -> Shop

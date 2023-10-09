@@ -1,0 +1,57 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*   SECTION-TITLE CSS START
+/*----------------------------------------*/
+
+.tpsection {
+    &__title {
+        font-size: 26px;
+        color: var(--tp-text-body);
+        font-weight: 600;
+        @media #{$xs} {
+            font-size: 22px;
+        }
+        & span {
+            position: relative;
+            display: inline-block;
+            font-weight: 300;
+            color: var(--tp-text-primary);
+            font-size: 26px;
+            letter-spacing: -1px;
+            & img {
+                position: absolute;
+                left: 0;
+                bottom: 1px;
+                z-index: -1;
+                animation: section-animation 2s infinite;
+            }
+        }
+    }
+}
+.tpsectionarea {
+    &__subtitle {
+        Font-size: 20px;
+        font-weight: 400;
+        color: var(--tp-text-primary);
+        margin-bottom: 0;
+    }
+    &__title{
+        font-size: 40px;
+        font-weight: 600;
+        color: var(--tp-text-body);
+        & i {
+            transform: translateY(5px);
+        }
+    }
+}
+.solid-line {
+	position: relative;
+    border-top: 1px solid var(--tp-border-1); 
+    & .tpsection__title{
+        transform: translateY(-18px);
+        background: #f8f8f8;
+        display: inline-block;
+        padding: 0 30px;
+    }      
+}

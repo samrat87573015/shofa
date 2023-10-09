@@ -1,0 +1,126 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  15. PLATINAM-PRODUCT CSS START
+/*----------------------------------------*/
+
+.tpratingitem {
+    &__title {
+        font-size: 15px;
+        color: var(--tp-text-secondary);
+        & a {
+            &:hover {
+                color: var(--tp-text-primary);
+            }
+        }
+    }
+    &__content {
+        & span {
+            color: var(--tp-text-body);
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    &__star {
+        & i {
+            font-size: 12px;
+            color: var(--tp-text-primary);
+        }
+        & span {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+    &__oldprice {
+        color: #d3d2d2;
+        font-weight: 600;
+        font-style: 16px;
+    }
+    &__available {
+        margin: 0 40px;
+        & .progress {
+            height: 4px;
+            background-color: #f0f0f0;
+            & .progress-bar {
+                width: 40% !important;
+                background-color: var(--tp-text-primary);
+                border-radius: 6px;
+            }
+        }
+    }
+    &__stock {
+        & span {
+            font-size: 14px;
+            font-weight: 600;
+            & i {
+                font-style: normal;
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+    }
+    &__countdown {
+        & span {
+            display: inline-block;
+            margin-bottom: 10px;
+            &.cdown {
+                color: var(--tp-text-body);
+                font-size: 14px;
+                font-weight: 600;
+                margin-right: 13px;
+                margin-bottom: 0;
+                padding-right: 16px;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    height: 30px;
+                    width: 1px;
+                    background-color: #ededed;
+                }
+                &:last-child {
+                    &::before {
+                        display: none;
+                    }
+                }
+                & p {
+                    margin-top: -15px;
+                    font-size: 16px;
+                    color: var(--tp-text-secondary);
+                }
+            }
+        }
+    }
+    &__count{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        & i {
+            font-style: normal;
+            font-size: 16px;
+            margin-bottom: 0;
+            padding-left: 13px;
+            color: var(--tp-text-secondary);
+        }
+    }
+}
+.tpplatiarrow {
+    @media #{$xs} {
+        justify-content: start !important;
+        margin-bottom: 20px;
+    }
+}
+.tpratingitem {
+    &__thumb {
+        overflow: hidden;
+        & img {
+            width: 100%;
+            &:hover {
+                transform: scale(1.08);
+            }
+        }   
+    }
+}

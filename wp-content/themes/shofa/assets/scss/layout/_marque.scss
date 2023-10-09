@@ -1,0 +1,73 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  09. MARQUE CSS START
+/*----------------------------------------*/
+.mp-marque-slider {
+    position: absolute;
+    top: 95px;;
+    width: 100%;
+    @media #{$xs} {
+        top: 45px;
+    }
+    & p {
+        text-transform: uppercase;
+        font-size: 100px;
+        font-weight: 700;
+        color: var(--tp-common-white);
+        @media #{$xxxl} {
+            font-size: 85px;
+        }
+        @media #{$xxl} {
+            font-size: 75px;
+        }
+        @media #{$xl} {
+            font-size: 64px;
+        }
+        @media #{$lg} {
+            font-size: 53px;
+        }
+        @media #{$md} {
+            font-size: 40px;
+        }
+        @media #{$xs} {
+            font-size: 16px;
+        }
+        @media #{$sm} {
+            font-size: 30px;
+        }
+        & span {
+            background-clip: text;
+            color: transparent;
+            background-image: url("../img/blog/blog-thumb-07.jpg");
+            background-size: cover;
+            -webkit-background-clip: text;
+        }
+    }
+}
+@media (min-width: 1801px) and (max-width: 1880px) {
+    .mp-marque-slider p {
+        font-size: 96px;
+    }
+}
+.mp-marque-slider .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+.swiper--top.swiper-container {
+    overflow: visible;
+}
+.platinamdell {
+    @media #{$lg} {
+        padding-top: 100px;
+    }
+    @media #{$md} {
+        padding-top: 80px;
+    }
+    @media #{$xs} {
+        padding-top: 0px;
+    }
+    @media #{$sm} {
+        padding-top: 50px;
+    }
+}

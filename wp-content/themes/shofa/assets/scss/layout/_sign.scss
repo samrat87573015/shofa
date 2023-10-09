@@ -1,0 +1,59 @@
+@use '../utils' as *;
+
+
+/*----------------------------------------*/
+/*  22. SIGN CSS START
+/*----------------------------------------*/
+.tpsign {
+    &__account {
+        margin-bottom: 18px;
+        & a {
+            text-decoration: underline;
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--tp-text-body);
+            &:hover {
+                color: var(--tp-text-primary);
+            }
+        }
+    }
+    &__remember {
+        & .form-check-input {
+            border: none;
+            background-color: var(--tp-common-white);
+        }
+        & .form-check-input:checked {
+            background-color: var(--tp-text-primary);
+            border-color: transparent;
+        }
+        & .form-check-input:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+        & .form-check-input[type="checkbox"] {
+            border-radius: 0;
+            height: 15px;
+            width: 15px;
+            transform: translateY(2px);
+        }
+        & .form-check-label {
+            font-size: 14px;
+            color: var(--tp-text-secondary);
+        }
+    }
+    &__pass {
+        & a{
+            font-size: 14px;
+            color: var(--tp-text-body);
+            text-decoration: underline;
+        }
+    }
+    &__reg {
+        background-color: #f3eee7;
+        color: var(--tp-common-black);
+        &:hover {
+            color: var(--tp-common-white);
+            background-color: var(--tp-text-body);
+        }
+    }
+}

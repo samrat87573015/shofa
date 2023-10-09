@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf") format("truetype"),
+url("../fonts/flaticon.woff") format("woff"),
+url("../fonts/flaticon.woff2") format("woff2"),
+url("../fonts/flaticon.eot") format("embedded-opentype"),
+url("../fonts/flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-delivery-truck:before {
+    content: "\f101";
+}
+.flaticon-24-hours:before {
+    content: "\f102";
+}
+.flaticon-mobile-payment:before {
+    content: "\f103";
+}
+.flaticon-gift-box:before {
+    content: "\f104";
+}
+.flaticon-chair:before {
+    content: "\f105";
+}
+.flaticon-chair-1:before {
+    content: "\f106";
+}
+.flaticon-mop:before {
+    content: "\f107";
+}
+.flaticon-log:before {
+    content: "\f108";
+}
+.flaticon-speaker:before {
+    content: "\f109";
+}
+.flaticon-think-out-of-the-box:before {
+    content: "\f10a";
+}
+.flaticon-dish:before {
+    content: "\f10b";
+}

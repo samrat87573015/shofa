@@ -1,0 +1,246 @@
+/* 01.  ========= pulse effect animation ========== */
+@-webkit-keyframes pulse {
+	0% {
+	  -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+	}
+}
+@keyframes pulse {
+0% {
+	-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+	box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+}
+70% {
+	-moz-box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+	box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+}
+100% {
+	-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+	box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+	}
+}
+
+/* 02. ========= btn arrow animation ========== */
+@keyframes iconarrow {
+    49% {
+        transform: translateX(30%);
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+
+/* 03. ========= btn arrow animation ========== */
+@-webkit-keyframes shine {
+	100% {
+	  left: 100%;
+	}
+  }
+  
+  @keyframes shine {
+	100% {
+	  left: 100%;
+	}
+}
+
+
+/* 04. ========= firefly ========== */
+@keyframes firefly {
+	0% {
+	 opacity: 1.0;
+	}
+	50% {
+	 opacity: 0.0;
+	}
+	100% {
+	 opacity: 1.0;
+	 color: white; 
+	}
+}
+
+/* 05. ========= firefly ========== */
+@keyframes hotdeal {
+	0% {
+	 opacity: 1.0;
+	}
+	50% {
+	 opacity: 0.6;
+	}
+	75% {
+	 opacity: 0.8;
+	}
+	100% {
+	 opacity: 1.5;
+	}
+}
+
+/* 06. ========= firefly ========== */
+@keyframes lightwhite {
+	100% {
+		left: 100%;
+	}
+}
+
+/* 07. ========= lighttitle ========== */
+@keyframes lighttitle {
+	100% {
+		// right: 0;
+		left: 100%;
+	}
+}
+
+/* 08. ========= banneranimation ========== */
+.banner-animation {
+	position: relative;
+	overflow: hidden;
+	&::before {
+		background: rgba(255,255,255,.3);
+		bottom: 0;
+		content: "";
+		left: 50%;
+		position: absolute;
+		right: 50%;
+		pointer-events: none;
+		top: 0;
+		opacity: 1;
+		width: 0;
+		transition: all 900ms linear;
+	}
+	&:hover {
+		&::before {
+			left: 0;
+			right: 0;
+			opacity: 0;
+			width: auto;
+			transition: all 900ms linear;
+		}
+	}
+}
+
+
+/* 09. ========= banneranimation ========== */
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 02. ========= video ripple animation ========== */
+@keyframes tp-pulse-2 {
+	0% {
+	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+	}
+	70% {
+	  box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+	}
+	100% {
+	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
+}
+
+/* 02. ========= section animation ========== */
+@keyframes section-animation {
+	0% {
+	  width: 0;
+	}
+	15% {
+	  width: 100%;
+	}
+	85% {
+	  opacity: 1;
+	}
+	90% {
+	  width: 100%;
+	  opacity: 0;
+	}
+	to {
+	  width: 0;
+	  opacity: 0;
+	}
+}
+
+/*--- preloader ---*/
+
+.dark #preloader {
+	background-color: #232323; 
+}
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #f7f7f7;
+	z-index: 999999;
+}
+.preloader {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	padding: 0px;
+	text-align: left;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	& span {
+		position: absolute;
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+		background: #D51243;
+		-webkit-animation: preloader 1.3s linear infinite;
+		animation: preloader 1.3s linear infinite;
+		&:last-child {
+			animation-delay: -0.8s;
+			-webkit-animation-delay: -0.8s;
+		}
+	}
+}
+@keyframes preloader {
+	0% {
+		transform: scale(0, 0);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(1, 1);
+		opacity: 0;
+	}
+}
+@-webkit-keyframes preloader {
+	0% {
+	  -webkit-transform: scale(0, 0);
+	  opacity: 0.5;
+	}
+	100% {
+	  -webkit-transform: scale(1, 1);
+  	 opacity: 0;
+	}
+}

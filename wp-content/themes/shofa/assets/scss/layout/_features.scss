@@ -1,0 +1,80 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  16. FEATURES CSS START
+/*----------------------------------------*/
+.tpfeatures {
+    &:hover {
+        & .tpfeatures__icon {
+            & img {
+                transform: translate3d(0, -5px, 0);
+            }
+        }
+    }
+    &__icon {
+        & img {
+            transform: translate3d(0, 0, 0);
+            transition: transform 0.3s cubic-bezier(0.21, 0.6, 0.44, 2.18);
+        }
+    }
+    &__icon {
+        padding: 25px 24px;
+        background-color: var(--tp-theme-13);
+        display: inline-block;
+        border-radius: 6px;
+        width: 100px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--tp-text-9);
+    }
+}
+.tpfeaturesborder {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 10px;
+        height: 150px;
+        width: 1px;
+        background-color: #f2f2f2;
+        display: none;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        right: -15px;
+        top: 10px;
+        height: 150px;
+        width: 1px;
+        background-color: #f2f2f2;
+    }
+    @media #{$md,$xs} {
+        &::after {
+            display: none;
+        }
+    }
+}
+.fea-row {
+    & .col-lg-2:last-child{
+        & .tpfeaturesborder{
+            &::after {
+                right: 0px;
+            }
+        }
+    }
+    & .col-lg-2:first-child{
+        & .tpfeaturesborder{
+            &::before {
+                display: block;
+            }
+            @media #{$md,$xs} {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+}

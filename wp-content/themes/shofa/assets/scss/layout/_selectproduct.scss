@@ -1,0 +1,44 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  18. SELECTPRODUCT CSS START
+/*----------------------------------------*/
+.tpselectproduct {
+    &__heading {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__thumb {
+        flex: 0 0 auto;
+        & img {
+            border-radius: 6px;
+            width: 80px;
+            height: 90px;
+            object-fit: cover;
+            @include transition(.3s);
+        }
+    }
+    &__rating {
+        color: var(--tp-text-primary);
+        font-size: 11px;
+        margin-bottom: 3px;
+        & .max-star {
+            color: #e0e0e0;
+        }
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--tp-text-secondary);
+        & a {
+            &:hover {
+                color: var(--tp-text-primary);
+            }
+        }
+    }
+    &__price {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--tp-text-body);
+    }
+}

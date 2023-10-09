@@ -1,0 +1,180 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  14. BRAND CSS START
+/*----------------------------------------*/
+.tpbrand {
+    & .tpsection__title {
+        color: var(--tp-common-white);
+    }
+    & .left-line {
+        &::before {
+            background-color: var(--tp-border-5);
+        }
+    }
+    & .right-line {
+        &::after {
+            background-color: var(--tp-border-5);
+        }
+    }
+    & .brand-items {
+        & img {
+            opacity: .5;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+.brand-items {
+    & .swiper-slide {
+        text-align: center;
+    }
+}
+.black-bg-brand {
+    @media #{$xs} {
+        padding-top: 20px;
+    }
+}
+.brand-items {
+    & img {
+        opacity: .5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.tpabout {
+    &__inner-title-area{
+        & p {
+            font-size: 18px;
+            color: var(--tp-text-secondary);
+            margin-bottom: 40px;
+            @media #{$lg} {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            @media #{$xs} {
+                font-size: 16px;
+            }
+            @media #{$sm} {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    &__logo {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        @media #{$xs} {
+            bottom: 30px;
+        }
+        & img {
+            max-width: 100%;
+        }
+    }
+    &__inner-thumb {
+        & img  {
+            border-radius: 6px;
+            max-width: 100%;
+        }
+    }
+    &__inner-title {
+        font-size: 40px;
+        color: var(--tp-text-body);
+        font-weight: 600;
+        @media #{$xl,$lg,$xs,$sm} {
+            font-size: 30px;
+        }
+    }
+    &__inner-sub-title {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: var(--tp-text-secondary);
+    }
+    &__inner-story {
+        & p {
+            font-size: 18px;
+            color: var(--tp-text-secondary);
+            margin-bottom: 0;
+            margin-right: -25px;
+            @media #{$lg} {
+                margin-right: 0px;
+                font-size: 16px;
+            }
+            @media #{$md,$xs,$sm} {
+                margin-right: 0px;
+                font-size: 16px;
+            }
+        }
+    }
+    &__inner-story-2 {
+        & p {
+            font-size: 18px;
+            color: var(--tp-text-secondary);
+            margin-bottom: 0;
+            margin-left: 75px;
+            @media #{$xl} {
+                margin-left: 35px;
+            }
+            @media #{$lg,$md,$xs,$sm} {
+                margin-left: 0px;
+                font-size: 16px;
+            }
+        }
+    }
+    &__inner-list {
+        & ul {
+            & li {
+                list-style: none;
+                position: relative;
+                padding-left: 45px;
+                margin-bottom: 21px;
+                @media #{$xl} {
+                    padding-left: 35px;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                & a {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: var(--tp-text-body);
+                    background-image: linear-gradient(#040404, #040404), linear-gradient(#040404, #040404);
+                    display: inline;
+                    background-size: 0% 1px, 0 1px;
+                    background-position: 100% 100%, 0 90%;
+                    background-repeat: no-repeat;
+                    transition: background-size 0.4s linear;
+                    line-height: 1.4;
+                    @media #{$xl} {
+                        font-size: 15px;
+                    }
+                    @media #{$xs,$sm} {
+                        font-size: 16px;
+                    }
+                    &:hover {
+                        background-size: 0 1px, 100% 1px;
+                    }
+                    & i {
+                        position: absolute;
+                        top: 5px;
+                        left: 10px;
+                        color: var(--tp-text-secondary);
+                    }
+                }
+            }
+        }
+    }
+}
+.about-inner-content {
+    @media #{$lg,$md,$xs,$sm} {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

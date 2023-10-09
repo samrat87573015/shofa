@@ -1,0 +1,101 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  00. BUTTON CSS START
+/*----------------------------------------*/
+
+.tp-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 33px;
+    border-radius: 6px;
+    color: var(--tp-text-body);
+    background: var(--tp-common-white);
+    line-height: 1.2;
+    &:hover {
+        color: var(--tp-common-white);
+        background-color: var(--tp-text-primary);
+        & i {
+            animation: iconarrow 0.4s linear;
+        }
+    }
+    & i {
+        color: var(--tp-text-2);
+        margin-left: 10px;
+        text-transform: uppercase;
+        @media #{$xs} {
+            margin-left: 2px;
+        }
+    }
+}
+.tpsecondary-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 33px;
+    border-radius: 6px;
+    background: var(--tp-text-primary);
+    color: var(--tp-common-white);
+    line-height: 1.2;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+        left: -10%;
+        top: 0;
+        height: 100%;
+        width: 10%;
+    }
+    &:hover {
+        &::before {
+            animation: lightwhite .8s;
+        }
+        & i {
+            animation: iconarrow 0.4s linear;
+        }
+    }
+    & i {
+        color: var(--tp-text-2);
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+}
+.tpcart-btn,
+.tpcheck-btn {
+	border: 2px solid var(--tp-text-primary);
+	display: block;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	min-height: 45px;
+	text-transform: uppercase;
+	background: var(--tp-text-primary);
+	color: var(--tp-common-white);
+	border-radius: 30px;
+	padding: 10px 30px;
+	text-align: center;
+	line-height: 1.5;
+	padding: 14px;
+	font-weight: 600;
+	&:hover {
+		background-color: #b50833;
+		color: var(--tp-common-white);
+		border: 2px solid #b50833;
+	}
+}
+.tpcart-btn {
+	background-color: transparent;
+	color: var(--tp-text-primary);
+	&:hover {
+		background-color: #b50833;
+		color: var(--tp-common-white);
+		border: 2px solid #b50833;
+	}
+}
+.tp-color-btn {
+    background-color: var(--tp-text-primary);
+    color: var(--tp-common-white);
+}
+

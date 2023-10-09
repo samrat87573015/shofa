@@ -1,0 +1,70 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  00. TAB CSS START
+/*----------------------------------------*/
+.tpnavbar {
+    display: flex;
+    justify-content: end;
+    @media #{$xs} {
+        justify-content: start;
+    }
+    & .nav-tabs {
+        border-bottom: none;
+    }
+    & .nav-link {
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 50px;
+        color: var(--tp-text-body);
+        text-transform: capitalize;
+        @media #{$md} {
+            margin-left: 20px;
+        }
+        @media #{$xs} {
+            margin-left: 0;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    & .nav-link.active{
+        color: var(--tp-text-primary);
+        text-decoration: underline;
+    }
+}
+.tpproductnav {
+    justify-content: center;
+    @media #{$xs} {
+        justify-content: start;
+    }
+    &.tpnavbar {
+        & .nav-link {
+            @media #{$lg} {
+                margin-left: 20px;
+            }
+            @media #{$xl} {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+.tpproductall {
+    text-align: right;
+    @media #{$xs} {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    & a {
+        font-weight: 600;
+        font-size: 16px;
+        &:hover {
+            color: var(--tp-text-primary);
+        }
+        & i {
+            margin-left: 8px;
+        }
+    }
+}

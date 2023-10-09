@@ -1,0 +1,68 @@
+@use '../utils' as *;
+
+/*--
+    - Background color
+-----------------------------------------*/
+.grey-bg {
+	background: var(--tp-grey-1);
+}
+
+.grey-bg-2 {
+	background: var(--tp-grey-2);
+}
+
+.grey-bg-3 {
+	background: var(--tp-grey-8);
+}
+
+.white-bg {
+	background: var(--tp-common-white);
+}
+
+.black-bg {
+	background: var(--tp-common-black);
+}
+
+.space-bg {
+	background: var(--tp-theme-2);
+}
+
+.theme-bg {
+	background-color: var(--tp-theme-6);
+}
+
+.theme-bg-2 {
+	background-color: var(--tp-text-primary);
+}
+
+.slider-bg {
+	background-color: var(--tp-theme-8);
+}
+
+.footer-bg {
+	background-color: var(--tp-theme-7);
+}
+
+.black-bg-2 {
+	background-color: var(--tp-text-body);
+}
+
+.green-bg {
+	background-color: var(--tp-theme-9);
+}
+
+.green-bg-2 {
+	background-color: var(--tp-theme-11);
+}
+
+.slider-bg-2 {
+	background-color: var(--tp-theme-10);
+}
+
+.platinam-bg {
+	background-color: var(--tp-theme-12);
+}
+
+.platinam-light {
+	background-color: var(--tp-theme-13);
+}

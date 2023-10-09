@@ -1,0 +1,100 @@
+@use '../utils' as *; 
+
+
+/*----------------------------------------*/
+/*  23. COMING-SOON CSS START
+/*----------------------------------------*/
+.tpcoming {
+    &__bg {
+        background-repeat: no-repeat ;
+    }
+    &__area {
+        padding-top: 80px;
+        padding-bottom: 280px;
+        @media (max-width: 700px){
+            padding-bottom: 200px;
+        }
+    }
+    &__countdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & span {
+            &.cdown {
+                background-color: transparent;
+                height: 100%;
+                width: 80px;
+                text-align: center;
+                color: var(--tp-common-white);
+                font-size: 48px;
+                font-weight: 700;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-bottom: 40px;
+                @media (max-width: 500px) {
+                    font-size: 30px;
+                }
+            }
+            & p {
+                margin-top: 10px;
+                color: var(--tp-common-white);
+            }
+        }
+        
+    }
+    &__content {
+        padding-top: 115px;
+        & span {
+            margin-bottom: 5px;
+            display: inline-block;
+            font-size: 18px;
+            color: var(--tp-common-white);
+        }
+    }
+    &__title {
+        font-weight: 600;
+        color: var(--tp-common-white);
+        font-size: 48px;
+        @media (max-width: 500px){
+            font-size: 30px;
+        }
+    }
+    &__submit {
+        & form {
+            position: relative;
+            & input {
+                height: 60px;
+                width: 100%;
+                border: none;
+                padding: 5px 200px 5px 55px ;
+                &::placeholder {
+                    font-size: 14px;
+                    color: var(--tp-text-secondary);
+                }
+            }
+        }
+        & span {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 30px;
+            & i {
+                margin-left: 30px;
+            }
+        }
+        & button {
+            position: absolute;
+            font-size: 16px;
+            color: var(--tp-common-white);
+            font-weight: 600;
+            right: -1px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--tp-text-primary);
+            padding: 17px 20px;
+            & i {
+                margin-left: 11px;
+            }
+        }
+    }
+}

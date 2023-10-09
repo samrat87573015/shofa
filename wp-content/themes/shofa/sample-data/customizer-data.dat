@@ -1,0 +1,31 @@
+a:4:{s:8:"template";s:6:"shofa";s:4:"mods";a:33:{i:0;b:0;s:18:"nav_menu_locations";a:4:{s:9:"main-menu";i:16;s:16:"product-cat-menu";i:17;s:15:"header-top-menu";i:28;s:14:"offcanvas-menu";i:29;}s:18:"custom_css_post_id";i:399;s:25:"shofa_blog_single_social";b:1;s:20:"shofa_topbar_switch";b:1;s:23:"shofa_preloader_switch";b:1;s:16:"shofa_backtotop";b:1;s:19:"shofa_header_right";b:1;s:20:"shofa_header_search";b:1;s:18:"shofa_header_lang";b:1;s:18:"shofa_header_cart";b:1;s:22:"shofa_header_wishlist";b:1;s:20:"shofa_header_avatar";b:1;s:23:"shofa_header_pcat_menu";b:1;s:22:"shofa_header_top_text";s:182:"Welcome to our international shop! Enjoy free shipping on orders $100 &amp; up. <a href="https://weblearnbd.net/wp/shofa/shop/">Shop Now <i class="fal fa-long-arrow-right"></i> </a>";s:23:"shofa_header_pcat_text";s:271:"<ul>
+                                    <li><a href="#">Value of the Day</a></li>
+                                    <li><a href="#">Top 100 Offers</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                 </ul>";s:16:"shofa_phone_num";s:43:"<a href="tel:0123456">908. 408. 501. 89</a>";s:21:"shofa_header_address";s:72:"<a href="https://weblearnbd.net/wp/shofa/shop-location/">Find Store</a>";s:23:"shofa_footer_left_link";s:445:"<div class="footer-cta__contact">
+                           <div class="footer-cta__icon">
+                              <i class="fal fa-phone"></i>
+                           </div>
+                           <div class="footer-cta__text">
+                              <a href="tel:0123456">980. 029. 666. 99</a>
+                              <span>Working 8:00 - 22:00</span>
+                           </div>
+                        </div>";s:24:"shofa_footer_right_link";s:715:"<div class="footer-cta__source">
+                           <div class="footer-cta__source-content">
+                              <h4 class="footer-cta__source-title">Download App on Mobile</h4>
+                              <p>15% discount on your first purchase</p>
+                           </div>
+                           <div class="footer-cta__source-thumb">
+                              <a href="#"><img src="https://weblearnbd.net/wp/shofa/wp-content/uploads/2023/01/f-google.jpg" alt="google"></a>
+                              <a href="#"><img src="https://weblearnbd.net/wp/shofa/wp-content/uploads/2023/01/f-app.jpg" alt="app"></a>
+                           </div>
+                        </div>";s:21:"shofa_footer_payment";s:79:"https://weblearnbd.net/wp/shofa/wp-content/uploads/2023/01/f-brand-icon-01.png";s:21:"footer_style_2_switch";b:1;s:20:"shofa_social_switch";b:1;s:26:"shofa_topbar_linkedin_url";s:0:"";s:28:"shofa_header_top_right_text";s:301:"<ul>
+                           <li>
+                              <a href="#"><i class="fal fa-user"></i> Account</a>
+                              <a class="order-tick" href="#"><i class="fal fa-plane-departure"></i>Track Your Order</a>
+                           </li>
+                        </ul>";s:21:"shofa_offcanvas_hide";b:1;s:27:"shofa_offcanvas_desc_title";s:25:"What Are You Looking For?";s:25:"shofa_side_gallery_items";a:4:{i:0;a:3:{s:14:"shofa_g_image";s:0:"";s:13:"shofa_g_icon";s:10:"fal fa-car";s:12:"shofa_g_txt";s:43:"Free Shipping apply to all
+orders over $100";}i:1;a:3:{s:14:"shofa_g_image";s:0:"";s:13:"shofa_g_icon";s:12:"fal fa-award";s:12:"shofa_g_txt";s:42:"Guranteed 100% Organic
+from natural farmas";}i:2;a:3:{s:14:"shofa_g_image";s:0:"";s:13:"shofa_g_icon";s:10:"fal fa-box";s:12:"shofa_g_txt";s:37:"1 Day Returns if you change
+your mind";}i:3;a:3:{s:14:"shofa_g_image";s:0:"";s:13:"shofa_g_icon";s:12:"fal fa-virus";s:12:"shofa_g_txt";s:34:"Covid-19 Info: We keep
+delivering.";}}s:20:"bacola_free_shipping";b:0;s:27:"shofa_header_wishlist_link";s:42:"https://weblearnbd.net/wp/shofa/wishlist/";s:15:"shofa_g_switch";b:1;s:27:"shofa_header_multicurrency";b:1;s:37:"shofa_header_multicurrency_shortcode";s:12:"[woocs sd=1]";}s:7:"options";a:22:{s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:79:"This is a demo store for testing purposes &mdash; no orders shall be fulfilled.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:0:"";s:35:"woocommerce_default_catalog_orderby";s:10:"menu_order";s:27:"woocommerce_catalog_columns";s:1:"5";s:24:"woocommerce_catalog_rows";s:1:"2";s:30:"woocommerce_single_image_width";s:3:"600";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:3:"1:1";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"4";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"3";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:44:"I have read and agree to the website [terms]";s:40:"woocommerce_checkout_privacy_policy_text";s:161:"Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:1:"3";s:25:"woocommerce_terms_page_id";s:0:"";s:9:"site_icon";s:1:"7";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:0:"";}
