@@ -291,7 +291,7 @@ class TP_Cat_Banner extends Widget_Base {
     $this->add_render_attribute('title_args', 'class', 'title');
 ?>
 
-        <div class="cta_banner_item banner-animation p-relative">
+        <div class="cta_banner_item p-relative">
             <div class="cta_banner_img w-img">
                 <?php if($settings['tp_category_icon_type'] == 'icon') : ?>
                 <?php if (!empty($settings['tp_category_icon']) || !empty($settings['tp_category_selected_icon']['value'])) : ?>

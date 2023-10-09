@@ -6330,6 +6330,19 @@ a.tp-btn.tp-color-btn.banner-animation.sm_size {
 .cta_banner_item {
   overflow: hidden;
 }
+.cta_banner_item::before {
+  transition: 0.3s;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  left: 0;
+  background: linear-gradient(0deg, #000, transparent);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
 .cta_banner_item .cta_banner_img {
   overflow: hidden;
 }
@@ -6341,11 +6354,12 @@ a.tp-btn.tp-color-btn.banner-animation.sm_size {
   position: absolute;
   bottom: 30px;
   left: 30px;
+  z-index: 2;
 }
 .cta_banner_item .cta_banner_content .cta_banner_title.ele-title {
   font-size: 20px;
   font-weight: 400;
-  color: var(--tp-common-black);
+  color: #fff;
   font-weight: 500;
   transform: translateY(20px);
 }
@@ -6358,6 +6372,7 @@ a.tp-btn.tp-color-btn.banner-animation.sm_size {
 .cta_banner_item .cta_banner_content .cta_button_area a.cta_btn {
   font-size: 16px;
   position: relative;
+  color: #fff;
 }
 .cta_banner_item .cta_banner_content .cta_button_area a.cta_btn::before {
   content: "";
@@ -6367,6 +6382,11 @@ a.tp-btn.tp-color-btn.banner-animation.sm_size {
   height: 1px;
   background: var(--tp-text-primary);
   bottom: 0;
+}
+.cta_banner_item:hover::before {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
 }
 .cta_banner_item:hover .cta_banner_img img {
   transform: scale(1.1);
