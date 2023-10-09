@@ -185,6 +185,10 @@
     margin: 0;
 }
 
+.wpclever_settings_page .wpclever_settings_page_content select[multiple] {
+    padding: 10px;
+}
+
 .wpclever_settings_page .wpclever_settings_page_content > form {
     margin: 0;
 }

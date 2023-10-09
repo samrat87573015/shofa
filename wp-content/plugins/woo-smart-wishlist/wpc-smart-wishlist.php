@@ -3,7 +3,7 @@
 Plugin Name: WPC Smart Wishlist for WooCommerce
 Plugin URI: https://wpclever.net/
 Description: WPC Smart Wishlist is a simple but powerful tool that can help your customer save products for buy later.
-Version: 4.7.4
+Version: 4.7.5
 Author: WPClever
 Author URI: https://wpclever.net
 Text Domain: woo-smart-wishlist
@@ -11,14 +11,14 @@ Domain Path: /languages/
 Requires at least: 4.0
 Tested up to: 6.3
 WC requires at least: 3.0
-WC tested up to: 8.0
+WC tested up to: 8.1
 */
 
 use Automattic\WooCommerce\Utilities\FeaturesUtil;
 
 defined( 'ABSPATH' ) || exit;
 
-! defined( 'WOOSW_VERSION' ) && define( 'WOOSW_VERSION', '4.7.4' );
+! defined( 'WOOSW_VERSION' ) && define( 'WOOSW_VERSION', '4.7.5' );
 ! defined( 'WOOSW_FILE' ) && define( 'WOOSW_FILE', __FILE__ );
 ! defined( 'WOOSW_URI' ) && define( 'WOOSW_URI', plugin_dir_url( __FILE__ ) );
 ! defined( 'WOOSW_DIR' ) && define( 'WOOSW_DIR', plugin_dir_path( __FILE__ ) );
@@ -382,7 +382,7 @@ if ( ! function_exists( 'woosw_init' ) ) {
 					check_ajax_referer( 'woosw-security', 'nonce' );
 
 					$return = [ 'status' => 0 ];
-					$key    = sanitize_text_field( $_POST['key'] );
+					$key    = sanitize_text_field( ! empty( $_POST['key'] ) ? $_POST['key'] : '' );
 
 					if ( empty( $key ) ) {
 						$key = self::get_key();
@@ -1239,6 +1239,11 @@ if ( ! function_exists( 'woosw_init' ) ) {
                                                     <li>
                                                         <label><input type="checkbox" name="woosw_settings[suggested][]" value="cross_sells" <?php echo esc_attr( in_array( 'cross_sells', $suggested ) ? 'checked' : '' ); ?>/> <?php esc_html_e( 'Cross-sells products', 'woo-smart-wishlist' ); ?>
                                                         </label></li>
+                                                    <li>
+                                                        <label><input type="checkbox" name="woosw_settings[suggested][]" value="compare" <?php echo esc_attr( in_array( 'compare', $suggested ) ? 'checked' : '' ); ?>/> <?php esc_html_e( 'Compare', 'woo-smart-wishlist' ); ?>
+                                                        </label> <span class="description">(from
+                                                        <a href="<?php echo esc_url( admin_url( 'plugin-install.php?tab=plugin-information&plugin=woo-smart-compare&TB_iframe=true&width=800&height=550' ) ); ?>" class="thickbox" title="WPC Smart Compare">WPC Smart Compare</a>)</span>
+                                                    </li>
                                                 </ul>
                                                 <span class="description">You can use
                                                     <a href="<?php echo esc_url( admin_url( 'plugin-install.php?tab=plugin-information&plugin=wpc-custom-related-products&TB_iframe=true&width=800&height=550' ) ); ?>" class="thickbox" title="WPC Custom Related Products">WPC Custom Related Products</a> or
@@ -1904,6 +1909,21 @@ if ( ! function_exists( 'woosw_init' ) ) {
 
 								if ( in_array( 'up_sells', $suggested ) ) {
 									$suggested_products = array_merge( $suggested_products, $product->get_upsell_ids() );
+								}
+
+								if ( in_array( 'compare', $suggested ) && class_exists( 'WPCleverWoosc' ) ) {
+									if ( method_exists( 'WPCleverWoosc', 'get_products' ) ) {
+										// from woosc 6.1.4
+										$compare_products   = WPCleverWoosc::get_products();
+										$suggested_products = array_merge( $suggested_products, $compare_products );
+									} else {
+										$cookie = 'woosc_products_' . md5( 'woosc' . get_current_user_id() );
+
+										if ( ! empty( $_COOKIE[ $cookie ] ) ) {
+											$compare_products   = explode( ',', sanitize_text_field( $_COOKIE[ $cookie ] ) );
+											$suggested_products = array_merge( $suggested_products, $compare_products );
+										}
+									}
 								}
 							}
 						}
