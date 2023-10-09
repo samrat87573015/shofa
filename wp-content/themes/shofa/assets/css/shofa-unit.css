@@ -1046,6 +1046,10 @@ table td {
 	}
 }
 
+.logo img{
+	width: 80px;
+}
+
 .main-menu ul > li.menu-last .submenu li .submenu {
 	left: -120%;
 }
