@@ -864,7 +864,7 @@ function _header_footer_fields( $fields ) {
         'settings' => 'footer_style_2_switch',
         'label'    => esc_html__( 'Footer Style 2 On/Off', 'shofa' ),
         'section'  => 'footer_setting',
-        'default'  => '1',
+        'default'  => '2',
         'priority' => 10,
         'choices'  => [
             'on'  => esc_html__( 'Enable', 'shofa' ),

@@ -7,7 +7,7 @@
  */
 function shofa_widgets_init() {
 
-    $footer_style_2_switch = get_theme_mod( 'footer_style_2_switch', true );
+    $footer_style_2_switch = get_theme_mod( 'footer_style_2_switch', false );
 
     /**
      * blog sidebar

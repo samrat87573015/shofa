@@ -24,7 +24,6 @@
    $shofa_mobile_menu_col_2 = $shofa_header_right ? 'col-md-2 col-4' : 'col-md-6 col-6';
    $shofa_mobile_menu_row = $shofa_header_right ? 'row align-items-center' : 'row align-items-center flex-row-reverse';
 
-   $cart_url = wc_get_cart_url();
 
 ?>
 
@@ -63,7 +62,9 @@
                             <?php endif; ?>
                         </div>
                         <div class="header_right_icon">
-                            <?php if ( class_exists( 'WooCommerce' ) && !empty($shofa_header_cart) ) : ?>
+                            <?php if ( class_exists( 'WooCommerce' ) && !empty($shofa_header_cart) ) : 
+                               $cart_url = wc_get_cart_url();
+                                ?>
                                 <div class="tp-mini-card header-cart p-relative tp-cart-toggle cartmini-open-btn">
                                     <a href="<?php echo esc_url($cart_url); ?>"><i class="fal fa-shopping-cart"></i></a>
                                     <span class="tp-item-count tp-header-icon cart__count tp-product-count tp-cart-item"><?php echo esc_html(WC()->cart->cart_contents_count); ?></span>   
