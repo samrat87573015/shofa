@@ -23,8 +23,8 @@ function shofa_register_required_plugins() {
      * If the source is NOT from the .org repo, then source is also required.
      */
 
-     $url = 'https://weblearnbd.net/wp/shofa/source/';
-     $acf_url = 'https://weblearnbd.net/plugin/';
+     $url = 'https://smartthemebd.com/wp/shofa/source/';
+     $acf_url = 'https://smartthemebd.com/plugin/';
 
     $plugins = [
         [
@@ -42,9 +42,9 @@ function shofa_register_required_plugins() {
         [
             'name'         => esc_html__( 'Advanced Custom Fields Pro', 'shofa' ),
             'slug'         => 'advanced-custom-fields-pro',
-            'source'       => $acf_url . 'advanced-custom-fields-pro.zip',
+            'source'       => $url . 'advanced-custom-fields-pro.zip',
             'required'     => true,
-            'external_url' => $acf_url . 'advanced-custom-fields-pro.zip',
+            'external_url' => $url . 'advanced-custom-fields-pro.zip',
         ],
         [
             'name'     => esc_html__( 'WP Classic Editor', 'shofa' ),
@@ -62,8 +62,18 @@ function shofa_register_required_plugins() {
             'required' => false,
         ],
         [
-            'name'     => esc_html__( 'FOX – Currency Switcher', 'shofa' ),
-            'slug'     => 'woocommerce-currency-switcher',
+            'name'     => esc_html__( 'WPC Smart Compare for WooCommerce', 'shofa' ),
+            'slug'     => 'woo-smart-compare',
+            'required' => false,
+        ],
+        [
+            'name'     => esc_html__( 'WPC Smart Quick View for WooCommerce', 'shofa' ),
+            'slug'     => 'woo-smart-quick-view',
+            'required' => false,
+        ],
+        [
+            'name'     => esc_html__( 'WPC Smart Wishlist for WooCommerce', 'shofa' ),
+            'slug'     => 'woo-smart-wishlist',
             'required' => false,
         ],
         [
@@ -81,11 +91,6 @@ function shofa_register_required_plugins() {
             'slug'               => 'woocommerce',
             'required'           => false, 
         ]  ,
-        [
-            'name'               => esc_html__('Order Tracker for WooCommerce','shofa'),
-            'slug'               => 'wc-order-tracker',
-            'required'           => false, 
-        ]  
     ];
     $config = [
         'id'           => 'shofa', // Unique ID for hashing notices for multiple instances of TGMPA.
