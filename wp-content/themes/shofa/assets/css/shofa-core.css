@@ -4559,6 +4559,31 @@ div#nav-list .tp-core-product .tpproduct__thumb-bg .tpproductactionbg .product-a
   margin-bottom: 5px;
 }
 
+.tp-product-sidebar-rating-thumb {
+  width: 100px;
+  height: 100px;
+  flex: 0 0 auto;
+}
+.tp-product-sidebar-rating-thumb img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.tp-product-sidebar-rating-title.product-title {
+  font-size: 17px;
+  color: var(--tp-common-black);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.tp-product-sidebar-rating-item .star-rating {
+  margin-bottom: 7px;
+}
+.tp-product-sidebar-rating-item .tp-product-sidebar-rating-price {
+  font-size: 16px;
+}
+
 /*----------------------------------------*/
 /*  07. SHOP CSS START
 /*----------------------------------------*/
