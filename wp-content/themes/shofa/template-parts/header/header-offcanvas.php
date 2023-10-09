@@ -62,6 +62,7 @@
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
                 tabindex="0">
                 <div class="tpsidebar-categories">
+                    <h3 class="d-none categories-menu"><?php echo esc_html__('cat menu', 'shofa') ?></h3>
                     <?php shofa_offcanvas_menu(); ?>
                 </div>
             </div>

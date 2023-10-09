@@ -4540,6 +4540,7 @@ div#nav-list .tp-core-product .tpproduct__thumb-bg .tpproductactionbg .product-a
   margin-right: 30px;
   overflow: hidden;
   border-radius: 5px;
+  flex: 0 0 auto;
 }
 .tp_product_list_item .product_thub_area img {
   width: 140px;
