@@ -632,7 +632,7 @@ add_action( 'wp_enqueue_scripts', 'shofa_scrollup_switch' );
 
 // theme color
 function shofa_custom_color() {
-    $SHOFA_THEME_color_1 = get_theme_mod( 'SHOFA_THEME_color_1', '#d51243' );
+    $SHOFA_THEME_color_1 = get_theme_mod( 'SHOFA_THEME_color_1', '#ed5d43' );
     $SHOFA_THEME_color_2 = get_theme_mod( 'SHOFA_THEME_color_2', '#040404' );
     $shofa_body_color = get_theme_mod( 'shofa_body_color', '#777777' );
 
