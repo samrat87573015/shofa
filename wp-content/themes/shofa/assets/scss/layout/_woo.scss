@@ -3757,3 +3757,17 @@ a.cart-button.icon-btn.button.stock-out {
         padding-left: 10px;
     }
 }
+
+div.woocommerce .woocommerce-cart-form table thead {
+    @media #{$xs} {
+        display: none;
+    }
+    
+}
+tr.woocommerce-cart-form__cart-item.cart_item {
+    @media #{$xs} {
+        display: grid;
+        grid: 80px / auto auto;
+        align-items: center;
+    }
+}

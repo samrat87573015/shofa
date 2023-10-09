@@ -12391,4 +12391,18 @@ a.cart-button.icon-btn.button.stock-out {
   }
 }
 
+@media (max-width: 767px) {
+  div.woocommerce .woocommerce-cart-form table thead {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  tr.woocommerce-cart-form__cart-item.cart_item {
+    display: grid;
+    grid: 80px/auto auto;
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=shofa-core.css.map */
