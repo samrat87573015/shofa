@@ -13,7 +13,7 @@
 	})
 
 	// menu last item
-	$('.main-menu nav > ul > li').slice(-4).addClass('menu-last');
+	$('.main-menu nav > ul > li').slice(-3).addClass('menu-last');
 
 	// mega menu class add
 	$('.has-megamenu > ul.submenu ').addClass('mega-menu');
