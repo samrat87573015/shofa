@@ -1,0 +1,291 @@
+/*!
+* metismenu https://github.com/onokumus/metismenu#readme
+* A jQuery menu plugin
+* @version 3.0.6
+* @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* @license: MIT
+*/
+.metismenu .arrow {
+  float: right;
+  line-height: 1.42857;
+}
+*[dir="rtl"] .metismenu .arrow {
+  float: left;
+}
+
+/*
+ * Require Bootstrap 3.x
+ * https://github.com/twbs/bootstrap
+*/
+
+.metismenu .glyphicon.arrow:before {
+  content: "\e079";
+}
+.metismenu .mm-active > a > .glyphicon.arrow:before {
+  content: "\e114";
+}
+
+/*
+ * Require Font-Awesome
+ * http://fortawesome.github.io/Font-Awesome/
+*/
+
+.metismenu .fa.arrow:before {
+  content: "\f104";
+}
+.metismenu .mm-active > a > .fa.arrow:before {
+  content: "\f107";
+}
+
+/*
+ * Require Ionicons
+ * http://ionicons.com/
+*/
+
+.metismenu .ion.arrow:before {
+  content: "\f3d2"
+}
+.metismenu .mm-active > a > .ion.arrow:before {
+  content: "\f3d0";
+}
+.metismenu .plus-times {
+  float: right;
+}
+*[dir="rtl"] .metismenu .plus-times {
+  float: left;
+}
+.metismenu .fa.plus-times:before {
+  content: "\f067";
+}
+.metismenu .mm-active > a > .fa.plus-times {
+  transform: rotate(45deg);
+}
+.metismenu .plus-minus {
+  float: right;
+}
+*[dir="rtl"] .metismenu .plus-minus {
+  float: left;
+}
+.metismenu .fa.plus-minus:before {
+  content: "\f067";
+}
+.metismenu .mm-active > a > .fa.plus-minus:before {
+  content: "\f068";
+}
+.metismenu .mm-collapse:not(.mm-show) {
+  display: none;
+}
+
+.metismenu .mm-collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: ease;
+  transition-duration: .35s;
+  transition-property: height, visibility;
+}
+
+.metismenu .has-arrow {
+  position: relative;
+}
+
+.metismenu .has-arrow::after {
+  position: absolute;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: currentColor;
+  border-color: initial;
+  right: 1em;
+  transform: rotate(-45deg) translate(0, -50%);
+  transform-origin: top;
+  top: 50%;
+  transition: all .3s ease-out;
+}
+
+*[dir="rtl"] .metismenu .has-arrow::after {
+  right: auto;
+  left: 1em;
+  transform: rotate(135deg) translate(0, -50%);
+}
+
+.metismenu .mm-active > .has-arrow::after,
+.metismenu .has-arrow[aria-expanded="true"]::after {
+  transform: rotate(-135deg) translate(0, -50%);
+}
+
+*[dir="rtl"] .metismenu .mm-active > .has-arrow::after,
+*[dir="rtl"] .metismenu .has-arrow[aria-expanded="true"]::after {
+  transform: rotate(225deg) translate(0, -50%);
+}
+
+/* custom code */
+
+.slide-bar {
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  right: -330px;
+  width: 300px;
+  padding: 25px 20px;
+  height: 100%;
+  display: block;
+  background-color: #ffffff;
+  z-index: 1020;
+  -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  box-shadow: -5px 0 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.slide-bar.show {
+  right: 0;
+}
+
+.open-mobile-menu {
+  display: inline-block;
+  margin-top: 12px;
+  position: relative;
+  z-index: 9;
+}
+.open-mobile-menu a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #00235A;
+}
+.open-mobile-menu a:hover {
+  background: #ff5e14;
+  color: #fff;
+}
+.open-mobile-menu a.active {
+  background: #FF5E14;
+}
+
+.close-mobile-menu a {
+  color: #212121;
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+  top: -10px;
+  left: 0;
+}
+.close-mobile-menu a:hover {
+  color: #ff0000;
+}
+
+.on-side {
+  overflow: hidden;
+}
+
+.body-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  left: 0;
+  opacity: 0;
+  display: none;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.body-overlay.active {
+  opacity: 1;
+  display: block;
+}
+
+.side-mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.side-mobile-menu ul li a {
+	padding: 14px 28px 12px;
+	display: block;
+	border-bottom: 1px solid #19354B;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: capitalize;
+	position: relative;
+	background: #0D293E;
+}
+.side-mobile-menu ul li a i {
+	width: 23px;
+}
+.side-mobile-menu ul li a:hover {
+  color: #FF5E14;
+}
+.side-mobile-menu ul li a[aria-expanded=true] {
+  color: #FF5E14;
+}
+.side-mobile-menu ul li a[aria-expanded=true]:before {
+  background: #FF5E14;
+  border-color: #FF5E14;
+}
+.side-mobile-menu ul li ul {
+  padding-left: 0;
+  list-style: none;
+}
+.side-mobile-menu ul li ul li a {
+  padding-left: 15px;
+}
+.side-mobile-menu ul li ul li:hover > a {
+  color: #FF5E14;
+}
+.side-mobile-menu ul li ul li:hover > a:before {
+  background: #FF5E14;
+  border-color: #FF5E14;
+}
+.side-mobile-menu ul li ul li a {
+	position: relative;
+	padding-left: 45px;
+	text-transform: capitalize;
+}
+.side-mobile-menu ul li ul li a::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	left: 27px;
+	top: 52%;
+	transform: translateY(-50%);
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+.side-mobile-menu ul li ul li a[aria-expanded=true] {
+
+}
+.side-mobile-menu ul li.has-dropdown > a::after {
+	position: absolute;
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-width: 2px 0 0 2px;
+	border-style: solid;
+	border-color: initial;
+	right: 22px;
+	top: 50%;
+	-webkit-transform: rotate(-45deg) translateY(-50%);
+	transform: rotate(-45deg) translateY(-50%);
+	-webkit-transform-origin: top;
+	transform-origin: top;
+	transition: all 0.3s ease-out;
+}
+.side-mobile-menu ul li.has-dropdown a[aria-expanded=true]:after {
+  -webkit-transform: rotate(-135deg) translateY(-50%);
+  transform: rotate(-135deg) translateY(-50%);
+}
+
