@@ -12399,9 +12399,11 @@ a.cart-button.icon-btn.button.stock-out {
 
 @media (max-width: 767px) {
   tr.woocommerce-cart-form__cart-item.cart_item {
-    display: grid;
-    grid: 80px/auto auto;
+    display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
   }
 }
 
