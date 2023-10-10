@@ -12407,4 +12407,10 @@ a.cart-button.icon-btn.button.stock-out {
   }
 }
 
+@media (max-width: 767px) {
+  .woocommerce-cart-form td.product-price {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=shofa-core.css.map */

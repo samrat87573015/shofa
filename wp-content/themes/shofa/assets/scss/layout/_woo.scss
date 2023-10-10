@@ -3773,3 +3773,9 @@ tr.woocommerce-cart-form__cart-item.cart_item {
         justify-content: space-between;
     }
 }
+
+.woocommerce-cart-form td.product-price {
+    @media #{$xs} {
+        display: none;
+    }
+}
