@@ -957,6 +957,9 @@ div#nav-list {
         border: 1px solid var(--tp-grey-7);
         border-radius: 6px;
         margin-bottom: 24px;
+        .filter-product {
+            padding: 25px;
+        }
         &:hover .tpproductactionbg.product__action {
             opacity: 1;
             visibility: visible;
@@ -1085,6 +1088,9 @@ div#nav-list {
     color: var(--tp-common-black);
     font-weight: 500;
     margin-bottom: 8px;
+    @media #{$lg} {
+        font-size: 15px;
+    }
 }
 
 .tp-product-sidebar-rating-item{
@@ -1093,5 +1099,8 @@ div#nav-list {
     }
     .tp-product-sidebar-rating-price {
         font-size: 16px;
+        @media #{$lg} {
+            font-size: 14px;
+        }
     }
 }
