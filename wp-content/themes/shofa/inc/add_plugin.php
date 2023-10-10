@@ -24,7 +24,6 @@ function shofa_register_required_plugins() {
      */
 
      $url = 'https://smartthemebd.com/wp/shofa/source/';
-     $acf_url = 'https://smartthemebd.com/plugin/';
 
     $plugins = [
         [
