@@ -12424,4 +12424,18 @@ a.cart-button.icon-btn.button.stock-out {
   }
 }
 
+@media (max-width: 767px) {
+  tr.woosw-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .woosw-list .woosw-copy {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
 /*# sourceMappingURL=shofa-core.css.map */

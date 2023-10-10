@@ -3777,3 +3777,20 @@ tr.woocommerce-cart-form__cart-item.cart_item {
         display: none;
     }
 }
+
+tr.woosw-item {
+
+    @media #{$xs} {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.woosw-list .woosw-copy {
+
+    @media #{$xs} {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
