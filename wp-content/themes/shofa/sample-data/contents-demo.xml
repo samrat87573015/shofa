@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.3.1" created="2023-10-10 10:59" -->
+	<!-- generator="WordPress/6.3.1" created="2023-10-10 13:55" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>shofa</title>
 	<link>https://smartthemebd.com/wp/shofa</link>
 	<description></description>
-	<pubDate>Tue, 10 Oct 2023 10:59:01 +0000</pubDate>
+	<pubDate>Tue, 10 Oct 2023 13:55:48 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://smartthemebd.com/wp/shofa</wp:base_site_url>
@@ -140,6 +140,17 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
+		<wp:term_id>45</wp:term_id>
+		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[cabinet]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Cabinet]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[product_count_product_tag]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>44</wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[cabinet]]></wp:term_slug>
@@ -155,14 +166,14 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>45</wp:term_id>
+		<wp:term_id>18</wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[cabinet]]></wp:term_slug>
+		<wp:term_slug><![CDATA[chair]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Cabinet]]></wp:term_name>
+		<wp:term_name><![CDATA[Chair]]></wp:term_name>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[product_count_product_tag]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_value><![CDATA[13]]></wp:meta_value>
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
@@ -178,17 +189,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[product_count_product_cat]]></wp:meta_key>
 			<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:termmeta>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>18</wp:term_id>
-		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[chair]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Chair]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[product_count_product_tag]]></wp:meta_key>
-			<wp:meta_value><![CDATA[13]]></wp:meta_value>
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
@@ -328,6 +328,17 @@
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
+		<wp:term_id>23</wp:term_id>
+		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[table]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Table]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[product_count_product_tag]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>22</wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[table]]></wp:term_slug>
@@ -340,17 +351,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[product_count_product_cat]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:termmeta>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>23</wp:term_id>
-		<wp:term_taxonomy><![CDATA[product_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[table]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Table]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[product_count_product_tag]]></wp:meta_key>
-			<wp:meta_value><![CDATA[4]]></wp:meta_value>
 		</wp:termmeta>
 	</wp:term>
 		<wp:term>
@@ -4442,14 +4442,14 @@
                                 aria-selected="true">table</button>
                     </nav>
                                                                         <a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">
-                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13-2.jpg" alt="product-thumb">
+                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/11.jpg" alt="product-thumb">
                                                                             </a>
                                                     compare
-                                                    <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg">Compare</button>                                                
+                                                    <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Compare</button>                                                
                                                      Quick View
                                                     <a href="#" data-id="408" data-effect="mfp-3d-unfold"></a>                                                
                                                      Add To Wishlist
-                                                        <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg">Add to wishlist</button>                                                    
+                                                        <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Add to wishlist</button>                                                    
                                         <a href="?add-to-cart=408" data-quantity="1" data-product_id="408" data-product_sku="" aria-label="Add &ldquo;Wood Bar Storage Cabinet&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
                                 <h3><a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">Wood Bar Storage Cabinet</a></h3>
 	&#036;529.00
@@ -4473,7 +4473,7 @@
                                                      Quick View
                                                     <a href="#" data-id="71" data-effect="mfp-3d-unfold"></a>                                                
                                                      Add To Wishlist
-                                                        <button data-id="71" data-product_name="Rectangular Metal And Stone Table" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/20.jpg">Add to wishlist</button>                                                    
+                                                        <button data-id="71" data-product_name="Rectangular Metal And Stone Table" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/20.jpg">Browse wishlist</button>                                                    
                                         <a href="?add-to-cart=71" data-quantity="1" data-product_id="71" data-product_sku="" aria-label="Add &ldquo;Rectangular Metal And Stone Table&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
                                 <h3><a href="https://smartthemebd.com/wp/shofa/product/rectangular-metal-and-stone-table/">Rectangular Metal And Stone Table</a></h3>
 	&#036;1,209.00
@@ -4820,6 +4820,30 @@
                     <h4>This Week's Featured</h4>
                     Prev
                     Next
+                                                                        <a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">
+                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/11.jpg" alt="product-thumb">
+                                                                            </a>
+                                                    compare
+                                                    <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Compare</button>                                                
+                                                     Quick View
+                                                    <a href="#" data-id="408" data-effect="mfp-3d-unfold"></a>                                                
+                                                     Add To Wishlist
+                                                        <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Add to wishlist</button>                                                    
+                                        <a href="?add-to-cart=408" data-quantity="1" data-product_id="408" data-product_sku="" aria-label="Add &ldquo;Wood Bar Storage Cabinet&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
+                                <h3><a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">Wood Bar Storage Cabinet</a></h3>
+	&#036;529.00
+                                        <ul>
+                                            <li>
+                                                                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                                                            </li>
+                                            <li>
+                                                (0)
+                                            </li>
+                                        </ul>
 	Sale!
                                                                         <a href="https://smartthemebd.com/wp/shofa/product/bed-with-fabric-headboard/">
                                         <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13-2.jpg" alt="product-thumb">
@@ -4845,15 +4869,39 @@
                                                 (0)
                                             </li>
                                         </ul>
-                                                                        <a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">
-                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13-2.jpg" alt="product-thumb">
+                                                                        <a href="https://smartthemebd.com/wp/shofa/product/left-arm-chaise-bumper/">
+                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/38.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/38-4.jpg" alt="product-thumb">
                                                                             </a>
                                                     compare
-                                                    <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg">Compare</button>                                                
+                                                    <button data-id="59" data-product_name="Left-Arm Chaise Bumper" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/38.jpg">Compare</button>                                                
+                                                     Quick View
+                                                    <a href="#" data-id="59" data-effect="mfp-3d-unfold"></a>                                                
+                                                     Add To Wishlist
+                                                        <button data-id="59" data-product_name="Left-Arm Chaise Bumper" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/38.jpg">Add to wishlist</button>                                                    
+                                        <a href="?add-to-cart=59" data-quantity="1" data-product_id="59" data-product_sku="" aria-label="Add &ldquo;Left-Arm Chaise Bumper&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
+                                <h3><a href="https://smartthemebd.com/wp/shofa/product/left-arm-chaise-bumper/">Left-Arm Chaise Bumper</a></h3>
+	&#036;159.00
+                                        <ul>
+                                            <li>
+                                                                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                <a href="#"></a>
+                                                                                            </li>
+                                            <li>
+                                                (0)
+                                            </li>
+                                        </ul>
+                                                                        <a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">
+                                        <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg" alt="" decoding="async" loading="lazy" />                                                                                <img src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/11.jpg" alt="product-thumb">
+                                                                            </a>
+                                                    compare
+                                                    <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Compare</button>                                                
                                                      Quick View
                                                     <a href="#" data-id="408" data-effect="mfp-3d-unfold"></a>                                                
                                                      Add To Wishlist
-                                                        <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg">Add to wishlist</button>                                                    
+                                                        <button data-id="408" data-product_name="Wood Bar Storage Cabinet" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg">Add to wishlist</button>                                                    
                                         <a href="?add-to-cart=408" data-quantity="1" data-product_id="408" data-product_sku="" aria-label="Add &ldquo;Wood Bar Storage Cabinet&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
                                 <h3><a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">Wood Bar Storage Cabinet</a></h3>
 	&#036;529.00
@@ -4877,7 +4925,7 @@
                                                      Quick View
                                                     <a href="#" data-id="71" data-effect="mfp-3d-unfold"></a>                                                
                                                      Add To Wishlist
-                                                        <button data-id="71" data-product_name="Rectangular Metal And Stone Table" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/20.jpg">Add to wishlist</button>                                                    
+                                                        <button data-id="71" data-product_name="Rectangular Metal And Stone Table" data-product_image="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/20.jpg">Browse wishlist</button>                                                    
                                         <a href="?add-to-cart=71" data-quantity="1" data-product_id="71" data-product_sku="" aria-label="Add &ldquo;Rectangular Metal And Stone Table&rdquo; to your cart" rel="nofollow">Add to cart</a>                                    
                                 <h3><a href="https://smartthemebd.com/wp/shofa/product/rectangular-metal-and-stone-table/">Rectangular Metal And Stone Table</a></h3>
 	&#036;1,209.00
@@ -5207,8 +5255,8 @@
 </section>
                         <h4>Discount Products</h4>
                             <a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">
-                                <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/13.jpg" alt="" decoding="async" loading="lazy" />                            </a>
-                                <a href="https://smartthemebd.com/wp/shofa/product-category/cabinet/">Cabinet</a>
+                                <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/10.jpg" alt="" decoding="async" loading="lazy" />                            </a>
+                                <a href="https://smartthemebd.com/wp/shofa/product-category/bed/">Bed</a>
                                                         <h3><a href="https://smartthemebd.com/wp/shofa/product/solid-wood-bar-storage-cabinet/">Wood Bar Storage Cabinet</a></h3>
                                         <ul>
                                             <li>
@@ -5329,7 +5377,7 @@
 	&#036;599.00
                             <a href="https://smartthemebd.com/wp/shofa/product/left-arm-chaise-bumper/">
                                 <img width="1000" height="1240" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/38.jpg" alt="" decoding="async" loading="lazy" />                            </a>
-                                <a href="https://smartthemebd.com/wp/shofa/product-category/sofa/">Sofa</a>
+                                <a href="https://smartthemebd.com/wp/shofa/product-category/bed/">Bed</a>
                                                         <h3><a href="https://smartthemebd.com/wp/shofa/product/left-arm-chaise-bumper/">Left-Arm Chaise Bumper</a></h3>
                                         <ul>
                                             <li>
@@ -5363,7 +5411,7 @@
 	&#036;2,199.00
                                 <h5>Our Blog &amp; News</h5>
                                 <h2>Latest News &amp; Articles</h2>                            
-                                <h4><a href="#">View All Blog</a>
+                                <h4><a href="https://smartthemebd.com/wp/shofa/blog-grid/">View All Blog</a>
                 </h4>
                 <a href="https://smartthemebd.com/wp/shofa/the-art-of-choosing-the-perfect-furniture-for-your-home-4/">
                     <img width="1200" height="675" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/blog3.jpg" alt="" decoding="async" loading="lazy" />                </a>
@@ -5414,8 +5462,8 @@
 		<wp:post_id>77</wp:post_id>
 		<wp:post_date><![CDATA[2023-10-09 09:52:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2023-10-09 09:52:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-10-10 09:57:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-10-10 09:57:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2023-10-10 13:54:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-10-10 13:54:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -5503,7 +5551,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[{"id":"57615dd","elType":"section","settings":{"layout":"full_width","margin":{"unit":"px","top":"0","right":0,"bottom":"0","left":0,"isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"3a4420d","elType":"column","settings":{"_column_size":100,"_inline_size":null,"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"dc770c4","elType":"widget","settings":{"slider_list":[{"tp_slider_title":"Century Living Room<br> Armchair","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/slider2.png","id":103,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"7822c33"},{"tp_slider_title":"Century Living Room<br> Armchair","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/slider1.png","id":107,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"d6a249c"},{"tp_slider_title":"Garden Chair With <br> Armrests","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/Frame-3-2.png","id":137,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"6379f0b"}],"thumbnail_size":"full"},"elements":[],"widgetType":"tp-slider"}],"isInner":false}],"isInner":false},{"id":"cf3fa1d","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"51d0efc","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"90a9930","elType":"widget","settings":{"tp_design_style":"layout-2","tp_product_cat_sub_title":"Shop by Category","tp_product_cat_title":"Popular on the Shofa store.","tp_product_cat_description":"","tp_category_list":[{"tp_category_title":"Chair","_id":"a21452e","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-2.png","id":148,"size":"","alt":"","source":"library"},"tp_category_item":"10 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/chair\/"},{"tp_category_title":"Sofa","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-1.png","id":152,"size":"","alt":"","source":"library"},"tp_category_item":"2 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/sofa\/","_id":"8a90687"},{"tp_category_title":"Lamp","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-3.png","id":157,"size":"","alt":"","source":"library"},"tp_category_item":"3 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/lamp\/","_id":"387e5c1"},{"tp_category_title":"Cabinet","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-4.png","id":153,"size":"","alt":"","source":"library"},"tp_category_item":"4 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/cabinet\/","_id":"bcebbc1"},{"tp_category_title":"Table","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-5.png","id":161,"size":"","alt":"","source":"library"},"tp_category_item":"2 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/table\/","_id":"88b6c57"},{"tp_category_title":"Bed","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-6.png","id":165,"size":"","alt":"","source":"library"},"tp_category_item":"3 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/bed\/","_id":"be21643"}]},"elements":[],"widgetType":"tp-product-cat"}],"isInner":false}],"isInner":false},{"id":"e1cd09e","elType":"section","settings":{"layout":"full_width","gap":"no","padding":{"unit":"px","top":"95","right":"0","bottom":"70","left":"0","isLinked":false}},"elements":[{"id":"a881ecb","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"3cfc96f","elType":"widget","settings":{"tp_section_title":"Trending Products","tp_button_btn_text":"Button Text","posts_per_page":12,"category":["chair","lamp","sofa","table"],"tp_col_for_wide":"4","tp_col_for_desktop":"4","tp_col_for_laptop":"3"},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"03038cb","elType":"section","settings":{"structure":"30","padding":{"unit":"px","top":"50","right":"0","bottom":"50","left":"0","isLinked":false}},"elements":[{"id":"8a1bf8f","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"bba3f0f","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg3.jpg","id":215,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Sofa","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false},{"id":"d294794","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"7f2fa55","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg4.jpg","id":216,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Chair","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false},{"id":"36fc81d","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"7aaba5d","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg7.jpg","id":220,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Lamp","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false}],"isInner":false},{"id":"841e603","elType":"section","settings":{"layout":"full_width","gap":"no","background_background":"classic","background_overlay_background":"classic","padding":{"unit":"px","top":"95","right":"0","bottom":"70","left":"0","isLinked":false}},"elements":[{"id":"d78e971","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"3a17f5b","elType":"widget","settings":{"tp_design_style":"layout-3","tp_section_title":"This Week's Featured","tp_button_btn_text":"Button Text","posts_per_page":8,"category":["bed","chair","lamp","sofa","table"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"8a7d845","elType":"section","settings":{"structure":"30","padding":{"unit":"px","top":"80","right":"0","bottom":"80","left":"0","isLinked":false}},"elements":[{"id":"f20d0a9","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"ceeb14a","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Discount Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["chair"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false},{"id":"9752357","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"454d98f","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Featured Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["lamp"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false},{"id":"cade4ce","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"ed2fc5b","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Selling Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["sofa","table"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"7fe8582","elType":"section","settings":{"gap":"no","padding":{"unit":"px","top":"80","right":"0","bottom":"40","left":"0","isLinked":false}},"elements":[{"id":"2777194","elType":"column","settings":{"_column_size":100,"_inline_size":null,"padding_tablet":{"unit":"px","top":"0","right":"10","bottom":"0","left":"10","isLinked":false}},"elements":[{"id":"c159842","elType":"widget","settings":{"tp_blog_sub_title":"Our Blog & News","tp_blog_title":"Latest News & Articles","tp_blog_description":"","tp_blog_view_all_btn_text":"View All Blog","posts_per_page":3,"tp_post_content_limit":"10","tp_post_button":"Read More"},"elements":[],"widgetType":"blogpost"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
+		<wp:meta_value><![CDATA[[{"id":"57615dd","elType":"section","settings":{"layout":"full_width","margin":{"unit":"px","top":"0","right":0,"bottom":"0","left":0,"isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"3a4420d","elType":"column","settings":{"_column_size":100,"_inline_size":null,"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"dc770c4","elType":"widget","settings":{"slider_list":[{"tp_slider_title":"Century Living Room<br> Armchair","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/slider2.png","id":103,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"7822c33"},{"tp_slider_title":"Century Living Room<br> Armchair","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/slider1.png","id":107,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"d6a249c"},{"tp_slider_title":"Garden Chair With <br> Armrests","tp_slider_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/Frame-3-2.png","id":137,"size":"","alt":"","source":"library"},"tp_slider_description":"New Modern Stylist Fashionable Century Living Room Armchair","tp_btn_link_switcher":"yes","tp_btn_btn_text":"Shop Now","tp_btn_link_type":"2","tp_btn_page_link":"8","tp_slider_bottom_text":"Start From $99.99","_id":"6379f0b"}],"thumbnail_size":"full"},"elements":[],"widgetType":"tp-slider"}],"isInner":false}],"isInner":false},{"id":"cf3fa1d","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"51d0efc","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"90a9930","elType":"widget","settings":{"tp_design_style":"layout-2","tp_product_cat_sub_title":"Shop by Category","tp_product_cat_title":"Popular on the Shofa store.","tp_product_cat_description":"","tp_category_list":[{"tp_category_title":"Chair","_id":"a21452e","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-2.png","id":148,"size":"","alt":"","source":"library"},"tp_category_item":"10 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/chair\/"},{"tp_category_title":"Sofa","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-1.png","id":152,"size":"","alt":"","source":"library"},"tp_category_item":"2 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/sofa\/","_id":"8a90687"},{"tp_category_title":"Lamp","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-3.png","id":157,"size":"","alt":"","source":"library"},"tp_category_item":"3 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/lamp\/","_id":"387e5c1"},{"tp_category_title":"Cabinet","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-4.png","id":153,"size":"","alt":"","source":"library"},"tp_category_item":"4 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/cabinet\/","_id":"bcebbc1"},{"tp_category_title":"Table","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-5.png","id":161,"size":"","alt":"","source":"library"},"tp_category_item":"2 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/table\/","_id":"88b6c57"},{"tp_category_title":"Bed","tp_category_icon_type":"image","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/cat-6.png","id":165,"size":"","alt":"","source":"library"},"tp_category_item":"3 product","tp_category_url":"https:\/\/smartthemebd.com\/wp\/shofa\/product-category\/bed\/","_id":"be21643"}]},"elements":[],"widgetType":"tp-product-cat"}],"isInner":false}],"isInner":false},{"id":"e1cd09e","elType":"section","settings":{"layout":"full_width","gap":"no","padding":{"unit":"px","top":"95","right":"0","bottom":"70","left":"0","isLinked":false}},"elements":[{"id":"a881ecb","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"3cfc96f","elType":"widget","settings":{"tp_section_title":"Trending Products","tp_button_btn_text":"Button Text","posts_per_page":12,"category":["chair","lamp","sofa","table"],"tp_col_for_wide":"4","tp_col_for_desktop":"4","tp_col_for_laptop":"3"},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"03038cb","elType":"section","settings":{"structure":"30","padding":{"unit":"px","top":"50","right":"0","bottom":"50","left":"0","isLinked":false}},"elements":[{"id":"8a1bf8f","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"bba3f0f","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg3.jpg","id":215,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Sofa","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false},{"id":"d294794","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"7f2fa55","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg4.jpg","id":216,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Chair","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false},{"id":"36fc81d","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"7aaba5d","elType":"widget","settings":{"tp_design_style":"layout-2","tp_category_image":{"url":"https:\/\/smartthemebd.com\/wp\/shofa\/wp-content\/uploads\/2023\/10\/big-cat-bg7.jpg","id":220,"size":"","alt":"","source":"library"},"tp_category_item":"20","tp_category_title":"Lamp","tp_category_desc":"","tp_category_url":"#"},"elements":[],"widgetType":"tp-cat-banner"}],"isInner":false}],"isInner":false},{"id":"841e603","elType":"section","settings":{"layout":"full_width","gap":"no","background_background":"classic","background_overlay_background":"classic","padding":{"unit":"px","top":"95","right":"0","bottom":"70","left":"0","isLinked":false}},"elements":[{"id":"d78e971","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"3a17f5b","elType":"widget","settings":{"tp_design_style":"layout-3","tp_section_title":"This Week's Featured","tp_button_btn_text":"Button Text","posts_per_page":8,"category":["bed","chair","lamp","sofa","table"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"8a7d845","elType":"section","settings":{"structure":"30","padding":{"unit":"px","top":"80","right":"0","bottom":"80","left":"0","isLinked":false}},"elements":[{"id":"f20d0a9","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"ceeb14a","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Discount Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["chair"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false},{"id":"9752357","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"454d98f","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Featured Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["lamp"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false},{"id":"cade4ce","elType":"column","settings":{"_column_size":33,"_inline_size":null,"_inline_size_tablet":50},"elements":[{"id":"ed2fc5b","elType":"widget","settings":{"tp_design_style":"layout-4","tp_section_title":"Selling Products","tp_button_btn_text":"Button Text","posts_per_page":3,"category":["sofa","table"]},"elements":[],"widgetType":"tp-product-tab"}],"isInner":false}],"isInner":false},{"id":"7fe8582","elType":"section","settings":{"gap":"no","padding":{"unit":"px","top":"80","right":"0","bottom":"40","left":"0","isLinked":false}},"elements":[{"id":"2777194","elType":"column","settings":{"_column_size":100,"_inline_size":null,"padding_tablet":{"unit":"px","top":"0","right":"10","bottom":"0","left":"10","isLinked":false}},"elements":[{"id":"c159842","elType":"widget","settings":{"tp_blog_sub_title":"Our Blog & News","tp_blog_title":"Latest News & Articles","tp_blog_description":"","tp_blog_view_all_btn_text":"View All Blog","posts_per_page":3,"tp_post_content_limit":"10","tp_post_button":"Read More","tp_blog_view_all_btn_link_type":"2","tp_blog_view_all_btn_page_link":"391","category":["accessories","chair","dining-kitchen","sofa","tables"]},"elements":[],"widgetType":"blogpost"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -6367,6 +6415,51 @@ Cheeky bugger cracking goal starkers lemon squeezy lost the plot pardon me no bi
 		<description></description>
 		<content:encoded><![CDATA[<h5>Our Blog &amp; News</h5>
                                 <h2>Latest News &amp; Articles</h2>                            
+                <a href="https://smartthemebd.com/wp/shofa/the-art-of-choosing-the-perfect-furniture-for-your-home-4/">
+                    <img width="1200" height="675" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/blog3.jpg" alt="" decoding="async" loading="lazy" />                </a>
+                    <ul>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/2023/10/10/">Oct 10, 2023</a>
+                        </li>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/category/dining-kitchen/">Dining &amp; Kitchen</a>
+                        </li>
+                    </ul>
+                <h4><a href="https://smartthemebd.com/wp/shofa/the-art-of-choosing-the-perfect-furniture-for-your-home-4/">Eco-Friendly Furniture Sustainable Choices for a</a>
+                </h4>
+                                <p>
+                    Nancy boy Charles down the pub get stuffed mate easy                </p>
+                    <a href="https://smartthemebd.com/wp/shofa/the-art-of-choosing-the-perfect-furniture-for-your-home-4/">Read More </a>
+                <a href="https://smartthemebd.com/wp/shofa/small-space-big-style-furniture-solutions-for-compact-living/">
+                    <img width="1200" height="675" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/blog6.jpg" alt="" decoding="async" loading="lazy" />                </a>
+                    <ul>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/2023/10/10/">Oct 10, 2023</a>
+                        </li>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/category/accessories/">Accessories</a>
+                        </li>
+                    </ul>
+                <h4><a href="https://smartthemebd.com/wp/shofa/small-space-big-style-furniture-solutions-for-compact-living/">Small Space, Big Style Furniture Solutions</a>
+                </h4>
+                                <p>
+                    Nancy boy Charles down the pub get stuffed mate easy                </p>
+                    <a href="https://smartthemebd.com/wp/shofa/small-space-big-style-furniture-solutions-for-compact-living/">Read More </a>
+                <a href="https://smartthemebd.com/wp/shofa/outdoor-oasis-designing-your-dream-patio-with-furniture/">
+                    <img width="1200" height="675" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/blog4.jpg" alt="" decoding="async" loading="lazy" />                </a>
+                    <ul>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/2023/10/10/">Oct 10, 2023</a>
+                        </li>
+                        <li>
+                            <a href="https://smartthemebd.com/wp/shofa/category/chair/">Chair</a>
+                        </li>
+                    </ul>
+                <h4><a href="https://smartthemebd.com/wp/shofa/outdoor-oasis-designing-your-dream-patio-with-furniture/">Outdoor Oasis Designing Your Dream Patio</a>
+                </h4>
+                                <p>
+                    Nancy boy Charles down the pub get stuffed mate easy                </p>
+                    <a href="https://smartthemebd.com/wp/shofa/outdoor-oasis-designing-your-dream-patio-with-furniture/">Read More </a>
                 <a href="https://smartthemebd.com/wp/shofa/the-art-of-choosing-the-perfect-furniture-for-your-home-3/">
                     <img width="1200" height="675" src="https://smartthemebd.com/wp/shofa/wp-content/uploads/2023/10/blog5.jpg" alt="" decoding="async" loading="lazy" />                </a>
                     <ul>
@@ -6416,8 +6509,8 @@ Cheeky bugger cracking goal starkers lemon squeezy lost the plot pardon me no bi
 		<wp:post_id>391</wp:post_id>
 		<wp:post_date><![CDATA[2023-10-10 08:50:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2023-10-10 08:50:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-10-10 08:52:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-10-10 08:52:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2023-10-10 13:55:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-10-10 13:55:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[blog-grid]]></wp:post_name>
@@ -6513,7 +6606,7 @@ Cheeky bugger cracking goal starkers lemon squeezy lost the plot pardon me no bi
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[{"id":"e130e35","elType":"section","settings":{"padding":{"unit":"px","top":"80","right":"0","bottom":"40","left":"0","isLinked":false}},"elements":[{"id":"a3b31c0","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"b707e99","elType":"widget","settings":{"tp_blog_sub_title":"Our Blog & News","tp_blog_title":"Latest News & Articles","tp_blog_description":"","tp_blog_view_all_btn_switcher":"","tp_blog_view_all_btn_text":"Button Text","tp_post_content_limit":"10","tp_post_button":"Read More"},"elements":[],"widgetType":"blogpost"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
+		<wp:meta_value><![CDATA[[{"id":"e130e35","elType":"section","settings":{"padding":{"unit":"px","top":"80","right":"0","bottom":"40","left":"0","isLinked":false}},"elements":[{"id":"a3b31c0","elType":"column","settings":{"_column_size":100,"_inline_size":null},"elements":[{"id":"b707e99","elType":"widget","settings":{"tp_blog_sub_title":"Our Blog & News","tp_blog_title":"Latest News & Articles","tp_blog_description":"","tp_blog_view_all_btn_switcher":"","tp_blog_view_all_btn_text":"Button Text","tp_post_content_limit":"10","tp_post_button":"Read More","category":["accessories","chair","dining-kitchen","sofa","tables"]},"elements":[],"widgetType":"blogpost"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -6974,8 +7067,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="product_tag" nicename="chair"><![CDATA[Chair]]></category>
-		<category domain="product_cat" nicename="lamp"><![CDATA[Lamp]]></category>
 		<category domain="product_tag" nicename="lamp"><![CDATA[Lamp]]></category>
+		<category domain="product_cat" nicename="lamp"><![CDATA[Lamp]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -7827,8 +7920,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="product_tag" nicename="chair"><![CDATA[Chair]]></category>
-		<category domain="product_cat" nicename="lamp"><![CDATA[Lamp]]></category>
 		<category domain="product_tag" nicename="lamp"><![CDATA[Lamp]]></category>
+		<category domain="product_cat" nicename="lamp"><![CDATA[Lamp]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
@@ -7908,11 +8001,11 @@ This email is a receipt for your contact form submission on our website ([_site_
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[woosw_count]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[woosw_add]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1696842123]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1696937369]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[woosw_remove]]></wp:meta_key>
@@ -7953,8 +8046,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<category domain="product_cat" nicename="chair"><![CDATA[Chair]]></category>
 		<category domain="product_tag" nicename="chair"><![CDATA[Chair]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="product_tag" nicename="sofa"><![CDATA[Sofa]]></category>
 		<category domain="product_cat" nicename="sofa"><![CDATA[Sofa]]></category>
+		<category domain="product_tag" nicename="sofa"><![CDATA[Sofa]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
 		<wp:meta_value><![CDATA[599]]></wp:meta_value>
